@@ -101,6 +101,19 @@ $z-index: (
   -o-transform: scale($scale);
 }
 
+@mixin layout-margin {
+  width: 100%;
+  max-width: calc(100% - 32px);
+  margin: 0 auto;
+
+  @include bp-sm {
+    max-width: calc(100% - 300px);
+  }
+  @include bp-md {
+    max-width: calc(100% - 150px);
+  }
+}
+
 @mixin transition {
   transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;

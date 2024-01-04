@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import SVG from 'react-inlinesvg';
-import logoColored from '../../assets/icons/logo-colored.svg';
-import logoWhite from '../../assets/icons/logo-white.svg';
-import twitter from '../../assets/icons/twitter-white.svg';
-import linkedin from '../../assets/icons/linkedin-white.svg';
-import github from '../../assets/icons/github-white.svg';
+import logoColored from '../assets/icons/logo-colored.svg';
+import logoWhite from '../assets/icons/logo-white.svg';
+import menuIcon from '../assets/icons/hamburger.svg';
+import twitter from '../assets/icons/twitter-white.svg';
+import linkedin from '../assets/icons/linkedin-white.svg';
+import github from '../assets/icons/github-white.svg';
 
 const Header: React.FC = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -17,19 +18,21 @@ const Header: React.FC = () => {
   return (
     <header className={`page-wrapper__nav ${isOpen ? 'open' : ''}`}>
       <div className="navTop-banner">
-        <Link to="/">
+        <Link to="/" className="navTop-banner__logo">
           <SVG src={logoColored} />
         </Link>
         <button
           className="menu-toggle nav-button"
           role="banner"
           onClick={handleToggleNav}
-        ></button>
+        >
+          <SVG src={menuIcon} />
+        </button>
       </div>
       <nav role="banner">
         <div className="menu">
           <div className="banner__util">
-            <SVG src={logoWhite} />
+            <SVG src={logoWhite} className="banner__util-logo" />
             <button
               className="banner__util-button banner__util-close"
               onClick={handleToggleNav}
@@ -77,32 +80,32 @@ const Header: React.FC = () => {
                 </span>
               </Link>
             </li>
+
+            <div className="menu__socials">
+              <Link
+                to="https://twitter.com/ayodeji_odu"
+                target="_blank"
+                className="menu__socials-link"
+              >
+                <SVG src={twitter} />
+              </Link>
+
+              <Link
+                to="https://www.linkedin.com/in/ayodejiodukoya/"
+                target="_blank"
+                className="menu__socials-link"
+              >
+                <SVG src={linkedin} />
+              </Link>
+              <Link
+                to="https://github.com/ayoMoses"
+                target="_blank"
+                className="menu__socials-link"
+              >
+                <SVG src={github} />
+              </Link>
+            </div>
           </ul>
-
-          <div className="menu__socials">
-            <Link
-              to="https://twitter.com/ayodeji_odu"
-              target="_blank"
-              className="menu__socials-link"
-            >
-              <SVG src={twitter} />
-            </Link>
-
-            <Link
-              to="https://www.linkedin.com/in/ayodejiodukoya/"
-              target="_blank"
-              className="menu__socials-link"
-            >
-              <SVG src={linkedin} />
-            </Link>
-            <Link
-              to="https://github.com/ayoMoses"
-              target="_blank"
-              className="menu__socials-link"
-            >
-              <SVG src={github} />
-            </Link>
-          </div>
         </div>
       </nav>
     </header>
