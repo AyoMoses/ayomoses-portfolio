@@ -3,36 +3,37 @@ import { Link } from 'react-router-dom';
 import SVG from 'react-inlinesvg';
 import logoColored from '../../assets/icons/logo-colored.svg';
 import logoWhite from '../../assets/icons/logo-white.svg';
-// import menuIcon from '../../assets/icons/hamburger.svg';
-// import closeIcon from '../../assets/icons/close-menu.svg';
 import twitter from '../../assets/icons/twitter-white.svg';
 import linkedin from '../../assets/icons/linkedin-white.svg';
 import github from '../../assets/icons/github-white.svg';
 
 const Header: React.FC = () => {
-  return (
-    // <header>
-    //   <nav>
-    //     <Link to="/">Home</Link>
-    //     <Link to="/about-me">About Me</Link>
-    //     <Link to="/projects">Projects</Link>
-    //     <Link to="/designs">Designs</Link>
-    //     <Link to="/contact-me">Contact Me</Link>
-    //   </nav>
-    // </header>
+  const [isOpen, setIsOpen] = React.useState(false);
 
-    <header className="page-wrapper__nav">
+  const handleToggleNav = () => {
+    setIsOpen((prevIsOpen) => !prevIsOpen);
+  };
+
+  return (
+    <header className={`page-wrapper__nav ${isOpen ? 'open' : ''}`}>
       <div className="navTop-banner">
         <Link to="/">
           <SVG src={logoColored} />
         </Link>
-        <button className="menu-toggle nav-button" role="banner"></button>
+        <button
+          className="menu-toggle nav-button"
+          role="banner"
+          onClick={handleToggleNav}
+        ></button>
       </div>
       <nav role="banner">
         <div className="menu">
           <div className="banner__util">
             <SVG src={logoWhite} />
-            <button className="banner__util-button banner__util-close"></button>
+            <button
+              className="banner__util-button banner__util-close"
+              onClick={handleToggleNav}
+            ></button>
           </div>
 
           <ul className="menu__container">
