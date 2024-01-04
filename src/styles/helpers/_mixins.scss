@@ -1,0 +1,250 @@
+// OUR Z-INDEX SHOULD BE USED THIS WAY. SO WE DON'T HAVE DIFFERENT Z-INDEX FLYING AROUND
+// use @include z-index(fill-page); for example
+@use 'sass:math';
+$z-index: (
+  10: 10,
+  9: 9,
+  8: 8,
+  7: 7,
+  6: 6,
+  5: 5,
+  four: 4,
+  three: 3,
+  two: 2,
+  one: 1,
+  minus-1: -1,
+);
+
+@function z-index($key) {
+  @return map-get($z-index, $key);
+}
+
+@mixin z-index($key) {
+  z-index: z-index($key);
+}
+// Z INDEX
+
+/* ============ Breakpoints ============ */
+
+@mixin bp-ss {
+  @media only screen and (min-width: 480px) {
+    @content;
+  }
+}
+
+@mixin bp-sm {
+  @media only screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin bp-md {
+  @media only screen and (min-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin bp-lg {
+  @media only screen and (min-width: 1440px) {
+    @content;
+  }
+}
+
+@mixin landscape-mode {
+  @media screen and (orientation: landscape) {
+    @content;
+  }
+}
+
+// @mixin position-center {
+//   position: absolute;
+//   top: 0;
+//   right: 0;
+//   bottom: 0;
+//   left: 0;
+//   margin: auto;
+// }
+
+@mixin abs-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin fixed-center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin border-radius($pixel...) {
+  border-radius: $pixel;
+  -webkit-border-radius: $pixel;
+  -moz-border-radius: $pixel;
+  -ms-border-radius: $pixel;
+  -o-border-radius: $pixel;
+}
+
+@mixin filter($value) {
+  filter: $value();
+  -webkit-filter: $value();
+}
+
+//   SCALE ELEMENT FOR HOVER EFFECT
+@mixin scale($scale) {
+  transform: scale($scale);
+  -webkit-transform: scale($scale);
+  -moz-transform: scale($scale);
+  -ms-transform: scale($scale);
+  -o-transform: scale($scale);
+}
+
+@mixin transition {
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+
+@mixin transition-color {
+  transition: color 0.3s ease-out;
+  -webkit-transition: color 0.3s ease-out;
+  -moz-transition: color 0.3s ease-out;
+  -ms-transition: color 0.3s ease-out;
+  -o-transition: color 0.3s ease-out;
+}
+
+// FLEX FLOW
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+// FLEX SPACE BETWEEN
+@mixin flex-space-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// FLEX ROW-ALONE
+@mixin row {
+  display: flex;
+  flex-direction: row;
+}
+
+//FLEX COLUMN
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+// FLEX COLUMN-ALONE
+@mixin column {
+  display: flex;
+  flex-direction: column;
+}
+
+// GRID COLUMN-ALONE
+@mixin grid-column($repeat, $size) {
+  display: grid;
+  grid-template-columns: repeat($repeat, $size);
+}
+
+// GRID ROW-ALONE
+@mixin grid-row($repeat, $size) {
+  display: grid;
+  grid-template-rows: repeat($repeat, $size);
+}
+
+//GRID (ROW AND COLUMN)
+@mixin grid($repeat, $size) {
+  display: grid;
+  grid-template-columns: repeat($repeat, $size);
+  grid-template-rows: repeat($repeat, $size);
+}
+
+@mixin grid-center {
+  display: grid;
+  place-items: center;
+}
+
+// @mixin placeholder($color) {
+//   /* WebKit, Edge */
+//   &::-webkit-input-placeholder {
+//     color: $color;
+//   }
+
+//   /* Firefox 4-18 */
+//   &:-moz-placeholder {
+//     color: $color;
+//   }
+
+//   /* Firefox 19+ */
+//   &::-moz-placeholder {
+//     color: $color;
+//   }
+
+//   /* IE 10-11 */
+//   &:-ms-input-placeholder {
+//     color: $color;
+//   }
+
+//   /* Edge */
+//   &::-ms-input-placeholder {
+//     color: $color;
+//   }
+
+//   /* MODERN BROWSER */
+//   &::-webkit-input-placeholder {
+//     color: $color;
+//   }
+//   &::-moz-placeholder {
+//     color: $color;
+//   }
+//   &:-ms-input-placeholder {
+//     color: $color;
+//   }
+//   &::-ms-input-placeholder {
+//     color: $color;
+//   }
+//   &::placeholder {
+//     color: $color;
+//   }
+// }
+
+@mixin center-column {
+  display: grid;
+  grid-template-columns: 40px 1fr 40px;
+  @include respond(big-tab) {
+    grid-template-columns: 1fr;
+  }
+}
+
+@mixin place-top-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@mixin place-bottom-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+@mixin line-clamp($lines) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: $lines;
+  -webkit-box-orient: vertical;
+}
