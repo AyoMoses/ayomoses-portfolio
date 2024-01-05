@@ -1,9 +1,60 @@
-.page-wrapper {
-  &__footer {
-    width: 100%;
-    height: 100px;
-    background-color: darkmagenta;
-    color: white;
+@import '../helpers/mixins';
+
+.site-footer {
+  @include flex-column;
+  background-color: $col-dark;
+  padding: 1.69rem 2.56rem 1.71rem 2.5rem;
+
+  @include bp-sm {
+    padding-top: 2.31rem;
+    padding-bottom: 1.8rem;
+  }
+
+  &__title {
+    color: $col-white;
     text-align: center;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    word-wrap: break-word;
+    margin-top: 2.5rem;
+    @include bp-sm {
+      margin-top: 2.51rem;
+      font-size: 2.5rem;
+    }
+  }
+
+  &__text {
+    margin-bottom: 2.97rem;
+    margin-top: 1.51rem;
+    color: $col-white;
+    text-align: center;
+    font-size: 1rem;
+    @include bp-sm {
+      margin-bottom: 2.13rem;
+      font-size: 1.5rem;
+    }
+  }
+
+  &__social {
+    display: inline-flex;
+    align-items: center;
+    gap: 1.87rem;
+
+    @include bp-sm {
+      gap: 3.16rem;
+    }
+  }
+
+  &__social-link {
+    @include transition;
+    &:hover {
+      transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      -o-transform: scale(1.1);
+    }
   }
 }
