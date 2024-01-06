@@ -1,5 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
+import { useToggleAnimationContext } from '../contexts/ToggleAnimationContext';
+
 import SVG from 'react-inlinesvg';
 import logoColored from '../assets/icons/logo-colored.svg';
 import logoWhite from '../assets/icons/logo-white.svg';
@@ -9,11 +12,7 @@ import linkedin from '../assets/icons/linkedin-white.svg';
 import github from '../assets/icons/github-white.svg';
 
 const Header: React.FC = () => {
-  const [isOpen, setIsOpen] = React.useState(false);
-
-  const handleToggleNav = () => {
-    setIsOpen((prevIsOpen) => !prevIsOpen);
-  };
+  const { isOpen, handleToggleNav } = useToggleAnimationContext();
 
   return (
     <header className={`page-wrapper__nav ${isOpen ? 'open' : ''}`}>

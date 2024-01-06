@@ -83,6 +83,12 @@ img:not([alt]) {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  max-width: 100%;
+  position: relative;
+  background-image: url('../../assets/app-bg.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 
   &__content {
     flex: 1;
@@ -92,5 +98,23 @@ img:not([alt]) {
     width: 100%;
     align-items: center;
     background-color: #111111;
+  }
+}
+
+.scroll-to-top-button {
+  /* Base styles for the button */
+  position: fixed;
+  bottom: 30px;
+  right: -50px; // Initially off-screen
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: black; // Adjust as needed
+  color: white;
+  cursor: pointer;
+  transition: right 0.3s ease-in-out;
+
+  &.visible {
+    right: 30px; // Slide in from right
   }
 }

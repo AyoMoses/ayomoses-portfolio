@@ -261,3 +261,33 @@ $z-index: (
   -webkit-line-clamp: $lines;
   -webkit-box-orient: vertical;
 }
+
+//   SLIDE OUT/IN ANIMATION ON MENU CLICK
+@mixin slideContent {
+  opacity: 1;
+  transition: all 0.3s ease-in;
+  transform: translateX(0px);
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  -o-transform: translateX(0px);
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+
+  //   open state
+  &.open {
+    opacity: 0;
+    transition: all 0.4s ease-out;
+    transform: translateX(-50px);
+    -webkit-transform: translateX(-50px);
+    -moz-transform: translateX(-50px);
+    -ms-transform: translateX(-50px);
+    -o-transform: translateX(-50px);
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -ms-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+  }
+}

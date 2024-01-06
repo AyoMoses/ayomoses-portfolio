@@ -1,1 +1,59 @@
+@import '../helpers/mixins';
 /* _buttons.scss */
+.button {
+  @include flex-row;
+  gap: 0.56rem;
+  text-decoration: none;
+  padding: 0.44rem 0.94rem;
+  border-radius: 0.3125rem;
+  -webkit-border-radius: 0.3125rem;
+  -moz-border-radius: 0.3125rem;
+  -ms-border-radius: 0.3125rem;
+  -o-border-radius: 0.3125rem;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+
+  @include bp-sm {
+    padding: 0.75rem 1.25rem;
+    gap: 0.5rem;
+  }
+
+  &--primary {
+    background-color: $col-brand;
+    color: $col-white;
+    box-shadow: 2px 30px 22px 5px rgba(254, 80, 0, 0.25);
+    &:hover {
+      box-shadow: none;
+    }
+    @include bp-sm {
+    }
+    @include bp-md {
+      box-shadow: none;
+      &:hover {
+        box-shadow: 2px 30px 22px 5px rgba(254, 80, 0, 0.25);
+      }
+    }
+  }
+  &--secondary {
+    background-color: rgba(254, 80, 0, 0.1);
+    color: $col-brand;
+    @include bp-md {
+      &:hover {
+        box-shadow: 2px 30px 22px 5px rgba(254, 80, 0, 0.25);
+        background-color: $col-brand;
+        color: $col-font;
+      }
+    }
+  }
+}
+
+.v {
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
