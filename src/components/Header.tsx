@@ -7,7 +7,7 @@ import SVG from 'react-inlinesvg';
 import logoColored from '../assets/icons/logo-colored.svg';
 import logoWhite from '../assets/icons/logo-white.svg';
 import menuIcon from '../assets/icons/hamburger.svg';
-import twitter from '../assets/icons/twitter-white.svg';
+import twitter from '../assets/icons/twitterx.svg';
 import linkedin from '../assets/icons/linkedin-white.svg';
 import github from '../assets/icons/github-white.svg';
 
