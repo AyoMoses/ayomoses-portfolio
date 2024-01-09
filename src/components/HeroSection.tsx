@@ -34,6 +34,12 @@ export const HeroSection = () => {
           <SVG src={downloadIcon} />
         </a>
       </div>
+
+      <button type='button' className="hero-section__scroll-down">
+        <span className="hero-section__scroll-down__dot" />
+      </button>
+
+      <div className='hero-section__border' />
     </section>
   );
 };
