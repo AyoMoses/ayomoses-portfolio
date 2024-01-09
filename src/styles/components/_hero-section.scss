@@ -8,6 +8,7 @@
   margin-bottom: 4.19rem;
 
   @include bp-sm {
+    height: calc(100vh - 195px);
     margin-top: 4.8rem;
     margin-bottom: 2.12rem;
   }
