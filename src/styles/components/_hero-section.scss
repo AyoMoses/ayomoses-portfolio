@@ -6,15 +6,11 @@
   align-items: center;
   margin-top: 5.25rem;
   margin-bottom: 2.44rem;
-  padding-bottom: 4.19rem;
 
   @include bp-sm {
     margin-top: 4.8rem;
     margin-bottom: 2.75rem;
     padding-bottom: 2.12rem;
-  }
-  @include bp-md {
-    height: calc(100vh - 195px);
   }
 
   @include slideContent;

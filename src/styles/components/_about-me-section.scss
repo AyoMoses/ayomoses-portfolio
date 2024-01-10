@@ -1,0 +1,191 @@
+.about-me {
+  @include layout-margin;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.44rem;
+  padding-bottom: 4rem;
+  @include bp-md {
+    grid-template-columns: 1fr 2fr;
+    gap: 6rem;
+    padding-bottom: 9.19rem;
+  }
+
+  & .info {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    color: #ed3675;
+    text-align: center;
+
+    &::first-letter {
+      text-transform: capitalize;
+    }
+  }
+
+  & .mobile-info {
+    @include bp-md {
+      display: none;
+    }
+  }
+
+  & .desktop-info {
+    display: none;
+    @include bp-md {
+      display: block;
+    }
+  }
+
+  &__col-one {
+    @include transition;
+    position: relative;
+    transition: all 0.35s linear;
+    -webkit-transition: all 0.35s linear;
+    -moz-transition: all 0.35s linear;
+    -ms-transition: all 0.35s linear;
+    -o-transition: all 0.35s linear;
+    height: 25vh;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    @include bp-md {
+      height: auto;
+      padding-bottom: 0;
+    }
+  }
+
+  &__icons-wrap {
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    justify-content: space-between;
+  }
+
+  &__col-two {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    &:nth-child(1) {
+      font-size: 1.875rem;
+      line-height: 2.5rem;
+    }
+
+    &:has(p) {
+      font-size: 1rem;
+      line-height: 1.625rem;
+      color: $col-font;
+    }
+  }
+
+  .ball,
+  .ballA,
+  .ballB,
+  .ballC {
+    display: grid;
+    place-items: center;
+    & svg {
+      width: 100%;
+      height: 100%;
+    }
+    & a {
+      width: 65%;
+      height: 65%;
+    }
+  }
+
+  .pause-animation .ball,
+  .pause-animation .ballA,
+  .pause-animation .ballB,
+  .pause-animation .ballC {
+    animation-play-state: paused;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    position: static;
+    transition: all 0.35s linear;
+    -webkit-transition: all 0.35s linear;
+    -moz-transition: all 0.35s linear;
+    -ms-transition: all 0.35s linear;
+    -o-transition: all 0.35s linear;
+  }
+
+  .pause-animation {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    @include bp-md {
+      gap: 3rem;
+    }
+  }
+}
+
+.ball {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: rgba(0, 120, 212, 0.2);
+
+  //   background: -webkit-linear-gradient(to right, #ff5f6d, #ffc371);
+  //   background: linear-gradient(to right, #ff5f6d, #ffc371);
+  //   box-shadow: 0 0 10px 2px #424242;
+  animation: moveX 3.05s linear 0s infinite alternate,
+    moveY 3.4s linear 0s infinite alternate;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+.ballA {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  //   background: -webkit-linear-gradient(to right, #3d7eaa, #ffe47a);
+  //   background: linear-gradient(to right, #3d7eaa, #ffe47a);
+  //   box-shadow: 0 0 10px 2px #424242;
+  animation: moveY 2.05s linear 0s infinite alternate,
+    moveX 4s linear 0s infinite alternate;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+
+  background-color: rgba(14, 29, 42, 0.8);
+}
+.ballB {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  //   background: -webkit-linear-gradient(to right, #be93c5, #7bc6cc);
+  //   background: linear-gradient(to right, #be93c5, #7bc6cc);
+  //   box-shadow: 0 0 10px 2px #424242;
+  animation: moveY 2.05s linear 0s infinite alternate,
+    moveX 5.4s linear 0s infinite alternate;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+
+  background-color: rgba(237, 54, 117, 0.2);
+}
+.ballC {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  //background: -webkit-linear-gradient(to right, #007991, #78ffd6);
+  //background: linear-gradient(to right, #007991, #78ffd6);
+  //box-shadow: 0 0 10px 2px #424242;
+  animation: moveY 5s linear 0s infinite alternate,
+    moveX 3.4s linear 0s infinite alternate;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+
+  background-color: rgb(254, 80, 0, 0.3);
+  -webkit-animation: moveY 5s linear 0s infinite alternate,
+    moveX 3.4s linear 0s infinite alternate;
+}

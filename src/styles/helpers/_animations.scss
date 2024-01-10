@@ -164,3 +164,39 @@
     border-radius: 0;
   }
 }
+
+@keyframes moveX {
+  from {
+    left: 0;
+  }
+  to {
+    left: 91%;
+  }
+}
+
+@keyframes moveY {
+  from {
+    top: 0;
+  }
+  to {
+    top: 75%;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+    /*box-shadow: 0 0 10px 10px #424242;*/
+    opacity: 1;
+  }
+  50% {
+    transform: rotate(1000deg);
+    /*box-shadow: 0 0 15px 10px #424242;*/
+    opacity: 1;
+  }
+  to {
+    transform: rotate(1000deg);
+    /*box-shadow: 0 0 10px 10px #424242;*/
+    opacity: 1;
+  }
+}
