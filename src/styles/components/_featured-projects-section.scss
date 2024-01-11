@@ -1,0 +1,56 @@
+.featured {
+  
+  width: 100%;
+  max-width: calc(100% - 32px);
+  margin: 0 auto;
+
+  @include bp-sm {
+    max-width: calc(100% - 100px);
+  }
+  @include bp-md {
+    max-width: calc(100% - 300px);
+  }
+  @include bp-lg {
+    max-width: calc(100% - 500px);
+  }
+
+  &__header {
+    font-size: 1.625rem;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 4.13rem;
+    @include bp-sm {
+      font-size: 3.75rem;
+      margin-bottom: 6.2rem;
+    }
+  }
+
+  &__section:nth-child(even) {
+    width: 100%;
+    background-color: #c1c4db;
+  }
+  &__section:nth-child(odd) {
+    width: 100%;
+    // background-color: #b7d4df;
+    background-color: #ead2ae;
+  }
+
+  &__video {
+    max-width: 100%;
+  }
+  &__image {
+  }
+  &__project-name {
+  }
+  &__tags {
+  }
+  &__stack {
+    &-list {
+    }
+  }
+  &__category {
+  }
+  &__description {
+  }
+}
