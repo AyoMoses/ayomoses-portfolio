@@ -92,7 +92,7 @@ export const AboutMeSection = () => {
         </p>
 
         <Link to="/about-me" className="button button--slide">
-          more about me
+          More about me
           <SVG src={rightIcon} />
         </Link>
       </div>

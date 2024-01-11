@@ -64,7 +64,14 @@
   &__col-two {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
     gap: 2rem;
+
+    @include bp-md {
+      align-items: flex-start;
+      text-align: left;
+    }
 
     &:nth-child(1) {
       font-size: 1.875rem;
