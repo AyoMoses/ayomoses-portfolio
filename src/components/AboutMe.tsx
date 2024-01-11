@@ -6,6 +6,7 @@ import linkedin from '../assets/icons/linkedin-colored.svg';
 import twitter from '../assets/icons/twitterx.svg';
 import dribbble from '../assets/icons/dribbble.svg';
 import github from '../assets/icons/github-white.svg';
+import rightIcon from '../assets/icons/right-icon-black.svg';
 import { Link } from 'react-router-dom';
 
 export const AboutMeSection = () => {
@@ -36,7 +37,7 @@ export const AboutMeSection = () => {
           </h4>
         </div>
 
-        <div className='about-me__icons-wrap'>
+        <div className="about-me__icons-wrap">
           <div className="ball">
             <Link
               to="https://www.linkedin.com/in/ayodejiodukoya/"
@@ -89,6 +90,11 @@ export const AboutMeSection = () => {
           I take up wordpress projects if required by clients as previous
           projects on wordpress are shown in my selected projects section.
         </p>
+
+        <Link to="/about-me" className="button button--slide">
+          more about me
+          <SVG src={rightIcon} />
+        </Link>
       </div>
     </section>
   );

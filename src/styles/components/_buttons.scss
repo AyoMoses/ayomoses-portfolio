@@ -6,6 +6,7 @@
   text-decoration: none;
   padding: 0.44rem 0.94rem;
   border-radius: 0.3125rem;
+  width: max-content;
   -webkit-border-radius: 0.3125rem;
   -moz-border-radius: 0.3125rem;
   -ms-border-radius: 0.3125rem;
@@ -48,12 +49,47 @@
       }
     }
   }
+
+  &--slide {
+    position: relative;
+    width: max-content;
+    color: $col-brand;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    text-transform: capitalize;
+    gap: 0.62rem;
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 100%;
+      left: 0;
+      background-color: rgba(254, 80, 0, 0.1);
+      border-radius: 0.3125rem;
+      -webkit-border-radius: 0.3125rem;
+      -moz-border-radius: 0.3125rem;
+      -ms-border-radius: 0.3125rem;
+      -o-border-radius: 0.3125rem;
+      transition: width 0.4s ease-in-out;
+      -webkit-transition: width 0.4s ease-in-out;
+      -moz-transition: width 0.4s ease-in-out;
+      -ms-transition: width 0.4s ease-in-out;
+      -o-transition: width 0.4s ease-in-out;
+    }
+    &:hover,
+    &:focus {
+      &::before {
+        width: 100%;
+      }
+    }
+  }
 }
 
 .v {
-  transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  -webkit-transition: width 0.4s ease-in-out;
+  -moz-transition: width 0.4s ease-in-out;
+  -ms-transition: width 0.4s ease-in-out;
+  -o-transition: width 0.4s ease-in-out;
 }
