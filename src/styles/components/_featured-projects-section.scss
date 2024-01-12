@@ -31,6 +31,7 @@
       padding-top: 5rem;
       padding-bottom: 3.75rem;
     }
+    cursor: pointer;
     &-inner {
       width: 100%;
       max-width: calc(100% - 32px);
@@ -62,7 +63,6 @@
     -moz-border-radius: 0.9375rem;
     -ms-border-radius: 0.9375rem;
     -o-border-radius: 0.9375rem;
-    cursor: pointer;
 
     @include bp-md {
       height: 500px;
