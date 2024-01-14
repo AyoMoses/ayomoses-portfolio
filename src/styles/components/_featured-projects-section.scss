@@ -36,6 +36,7 @@
       width: 100%;
       max-width: calc(100% - 32px);
       margin: 0 auto;
+      position: relative;
 
       @include bp-sm {
         max-width: calc(100% - 100px);

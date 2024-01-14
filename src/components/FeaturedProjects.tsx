@@ -1,5 +1,9 @@
 import { useState } from 'react';
 import { MockData } from '../mock/HomeProjects';
+import { Link } from 'react-router-dom';
+import SVG from 'react-inlinesvg';
+
+import rightIcon from '../assets/icons/white-right-icon.svg';
 
 interface HoverState {
   [key: number]: boolean;
@@ -65,6 +69,17 @@ export const FeaturedProjects = () => {
               <h5 className="featured__project-name">{project.projectName}</h5>
             </div>
             <p className="featured__description">{project.description}</p>
+
+            <Link to="/projects" className="button button--black button--black-desktop">
+              view project
+            </Link>
+            <Link
+              to="/projects"
+              className="button button--black button--black-mobile"
+            >
+              view project
+              <SVG src={rightIcon} />
+            </Link>
           </div>
         </div>
       ))}

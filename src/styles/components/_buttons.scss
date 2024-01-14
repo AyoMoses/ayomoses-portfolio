@@ -89,6 +89,46 @@
       }
     }
   }
+
+  &--black {
+    background-color: $col-font;
+    color: $col-white;
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.375rem;
+    text-align: center;
+    padding: 0.62rem 1.25rem;
+    @include bp-md {
+      font-size: 1rem;
+      font-weight: 500;
+      line-height: 1.5rem;
+    }
+  }
+  &--black-mobile {
+    border-radius: 0.3125rem;
+    -webkit-border-radius: 0.3125rem;
+    -moz-border-radius: 0.3125rem;
+    -ms-border-radius: 0.3125rem;
+    -o-border-radius: 0.3125rem;
+    @include bp-md {
+      display: none;
+    }
+  }
+  &--black-desktop {
+    display: none;
+    @include bp-md {
+      display: flex;
+      flex-wrap: wrap;
+      border-radius: 100vh;
+      -webkit-border-radius: 100vh;
+      -moz-border-radius: 100vh;
+      -ms-border-radius: 100vh;
+      -o-border-radius: 100vh;
+      width: 6.25rem;
+      height: 6.25rem;
+      padding: 0;
+    }
+  }
 }
 
 .v {
