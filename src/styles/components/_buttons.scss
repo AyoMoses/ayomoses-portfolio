@@ -110,6 +110,7 @@
     -moz-border-radius: 0.3125rem;
     -ms-border-radius: 0.3125rem;
     -o-border-radius: 0.3125rem;
+    margin-top: 1.25rem;
     @include bp-md {
       display: none;
     }
@@ -127,6 +128,18 @@
       width: 6.25rem;
       height: 6.25rem;
       padding: 0;
+      position: absolute;
+      right: 1.95rem;
+      bottom: 6.87rem;
+      transform: translateY(-150px);
+      -webkit-transform: translateY(-150px);
+      -moz-transform: translateY(-150px);
+      -ms-transform: translateY(-150px);
+      -o-transform: translateY(-150px);
+      opacity: 0;
+      & span {
+        width: 90%;
+      }
     }
   }
 }
@@ -137,4 +150,9 @@
   -moz-transition: width 0.4s ease-in-out;
   -ms-transition: width 0.4s ease-in-out;
   -o-transition: width 0.4s ease-in-out;
+  transform: translateY(100px);
+  -webkit-transform: translateY(100px);
+  -moz-transform: translateY(100px);
+  -ms-transform: translateY(100px);
+  -o-transform: translateY(100px);
 }
