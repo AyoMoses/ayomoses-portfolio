@@ -62,7 +62,7 @@ export const FeaturedProjects = () => {
                         (min-width: 1649px) 100vw"
                   srcSet={generateSrcset(
                     project.imageUrl,
-                    [640, 999, 1287, 1216, 1648, 1500, 1596, 1920] 
+                    [640, 999, 1287, 1216, 1648, 1500, 1596, 1920]
                   )}
                   src={generateSrcset(project.imageUrl, [1920]).split(' ')[0]}
                   alt={project.projectName}
@@ -89,13 +89,15 @@ export const FeaturedProjects = () => {
             <p className="featured__description">{project.description}</p>
 
             <Link
-              to="/projects"
+              to={`${project.projectUrl}`}
+              target='_blank'
               className="button button--black button--black-desktop"
             >
               <span>view project</span>
             </Link>
             <Link
-              to="/projects"
+              to={`${project.projectUrl}`}
+              target='_blank'
               className="button button--black button--black-mobile"
             >
               View project
