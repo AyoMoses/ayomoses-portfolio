@@ -90,6 +90,10 @@
 
   &__description-wrap {
     position: relative;
+
+    background-image: url('/src/assets/icons/quote-icon.svg'), url('/src/assets/icons/quote-icon.svg');
+    background-repeat: no-repeat;
+    background-position: -0.3% 0%, bottom right;
   }
   &__description {
     color: $col-font;
@@ -98,6 +102,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 1.5rem;
+    width: 90%;
 
     @include bp-sm {
       font-size: 1rem;

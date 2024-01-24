@@ -101,7 +101,7 @@ export const TestimonialsSection = () => {
             </div>
 
             <h5 className="comment__title">Adeyemo Samuel</h5>
-            <h6 className="comment__sub-title">Director, Slitech (NG)</h6>
+            <h6 className="comment__sub-title">Director, Slitech (LAG, NG)</h6>
 
             <div className="comment__description-wrap">
               <p className="comment__description">
