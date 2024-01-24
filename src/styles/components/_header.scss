@@ -292,10 +292,11 @@ nav {
   &__container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 0.1rem;
     margin-top: 3.69rem;
+    height: 80vh;
     @include bp-sm {
       margin-top: 4.25rem;
     }
@@ -304,19 +305,23 @@ nav {
       padding-block: 0;
     }
   }
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
   .menu__socials {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1.87rem;
-    margin-top: 3.5rem;
+
     @include bp-sm {
       gap: 2.56rem;
     }
-    @include bp-lg {
-      margin-top: 1.5rem;
-    }
+
     &-icon {
       &:nth-child(1) {
         width: 1.7rem;

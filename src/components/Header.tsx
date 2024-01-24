@@ -39,52 +39,47 @@ const Header: React.FC = () => {
           </div>
 
           <ul className="menu__container">
-            <li data-animation="to-left">
-              <Link to="/">
-                Home
-                <span className="outer" aria-hidden="true">
-                  <span className="inner">Home</span>
-                </span>
-              </Link>
-            </li>
-            <li data-animation="to-bottom">
-              <Link to="/projects">
-                projects
-                <span className="outer" aria-hidden="true">
-                  <span className="inner">projects</span>
-                </span>
-              </Link>
-            </li>
-            <li data-animation="to-bottom">
-              <Link to="/designs">
-                designs
-                <span className="outer" aria-hidden="true">
-                  <span className="inner">designs</span>
-                </span>
-              </Link>
-            </li>
-            <li data-animation="to-top">
+            <div className='menu__inner'>
+              <li data-animation="to-left" onClick={handleToggleNav}>
+                <Link to="/">
+                  Home
+                  <span className="outer" aria-hidden="true">
+                    <span className="inner">Home</span>
+                  </span>
+                </Link>
+              </li>
+              <li data-animation="to-bottom" onClick={handleToggleNav}>
+                <Link to="/projects">
+                  dev projects
+                  <span className="outer" aria-hidden="true">
+                    <span className="inner">dev projects</span>
+                  </span>
+                </Link>
+              </li>
+              <li data-animation="to-bottom" onClick={handleToggleNav}>
+                <Link to="/designs">
+                  designs
+                  <span className="outer" aria-hidden="true">
+                    <span className="inner">designs</span>
+                  </span>
+                </Link>
+              </li>
+            </div>
+            {/* <li data-animation="to-top" onClick={handleToggleNav}>
               <Link to="/about-me">
                 about me
                 <span className="outer" aria-hidden="true">
                   <span className="inner">about me</span>
                 </span>
               </Link>
-            </li>
-            <li data-animation="to-left">
-              <Link to="/contact-me">
-                contact
-                <span className="outer" aria-hidden="true">
-                  <span className="inner">contact</span>
-                </span>
-              </Link>
-            </li>
+            </li> */}
 
             <div className="menu__socials">
               <Link
                 to="https://twitter.com/ayodeji_odu"
                 target="_blank"
                 className="menu__socials-link"
+                onClick={handleToggleNav}
               >
                 <SVG src={twitter} />
               </Link>
@@ -93,6 +88,7 @@ const Header: React.FC = () => {
                 to="https://www.linkedin.com/in/ayodejiodukoya/"
                 target="_blank"
                 className="menu__socials-link"
+                onClick={handleToggleNav}
               >
                 <SVG src={linkedin} />
               </Link>
@@ -100,6 +96,7 @@ const Header: React.FC = () => {
                 to="https://github.com/ayoMoses"
                 target="_blank"
                 className="menu__socials-link"
+                onClick={handleToggleNav}
               >
                 <SVG src={github} />
               </Link>

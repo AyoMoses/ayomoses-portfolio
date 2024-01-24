@@ -6,7 +6,7 @@ import linkedin from '../assets/icons/linkedin-colored.svg';
 import twitter from '../assets/icons/twitterx.svg';
 import dribbble from '../assets/icons/dribbble.svg';
 import github from '../assets/icons/github-white.svg';
-import rightIcon from '../assets/icons/right-icon-black.svg';
+// import rightIcon from '../assets/icons/right-icon-black.svg';
 import { Link } from 'react-router-dom';
 
 export const AboutMeSection = () => {
@@ -72,29 +72,23 @@ export const AboutMeSection = () => {
         </p>
 
         <p>
-          Oh, Ayo loves motion CSS. My role is to empathize with developers
-          while working on iteration with speed to hasten delivery, features
-          that are feasible from the design end to implement in front-end. I
-          bridge the design and front-end gap during product development and
-          launch.
+          My role is to empathize with developers while working on iteration
+          with speed to hasten delivery, features that are feasible from the
+          design end to implement in front-end. I bridge the design and
+          front-end gap during product development and launch.
         </p>
 
         <p>
-          I'm a huge fan of anything tech that interests me and that explains my
-          other fields which are: Digital Marketing, Web Analytics and Social
-          Media Strategy.
+          My Tech Stack include: <b>HTML, CSS, SCSS, Bootstrap, Tailwind CSS,
+          TypeScript, JavaScript, StorybookJS, ReactJS, NextJS, Angular,
+          WordPress, Figma, AdobeXD, and Shopify. I also have experience working with SEO and
+          Google Analytics</b> also, <b>Accessibility</b>.
         </p>
 
-        <p>
-          I work with Html, CSS, SCSS, Bootstrap, Tailwind CSS, and JavaScript.
-          I take up wordpress projects if required by clients as previous
-          projects on wordpress are shown in my selected projects section.
-        </p>
-
-        <Link to="/about-me" className="button button--slide">
+        {/* <Link to="/about-me" className="button button--slide">
           More about me
           <SVG src={rightIcon} />
-        </Link>
+        </Link> */}
       </div>
     </section>
   );
