@@ -1,0 +1,19 @@
+.comments {
+  padding-top: 6.5rem;
+  padding-bottom: 8.12rem;
+  @include bp-sm {
+    padding-top: 10rem;
+    padding-bottom: 12.5rem;
+  }
+  &__header {
+    color: $col-font;
+    text-align: center;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    @include bp-sm {
+      font-size: 3.75rem;
+    }
+  }
+}
