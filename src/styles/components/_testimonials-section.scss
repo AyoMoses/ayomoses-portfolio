@@ -1,4 +1,5 @@
-.comments {
+.comment {
+  @include layout-margin;
   padding-top: 6.5rem;
   padding-bottom: 8.12rem;
   @include bp-sm {
@@ -14,6 +15,142 @@
     line-height: normal;
     @include bp-sm {
       font-size: 3.75rem;
+    }
+  }
+
+  &__card {
+    @include column;
+    @include border-radius(1.25rem);
+    align-items: center;
+    margin-top: 1.87rem;
+    background-color: #f5f0e6;
+    box-shadow: 0px 4px 80px 0px rgba(230, 212, 203, 0.3);
+    padding: 1.88rem 2.13rem;
+
+    @include bp-sm {
+      margin-top: 5rem;
+      padding: 3.75rem 4.12rem 1.75rem 4.19rem;
+      box-shadow: 0px 16px 30px 0px rgba(204, 197, 185, 0.39);
+    }
+  }
+
+  .slick-track {
+    display: flex;
+    @include bp-sm {
+      gap: 5.62rem;
+    }
+  }
+
+  &__image-wrap {
+    @include border-radius(100vh);
+    width: 3.125rem;
+    height: 3.125rem;
+    object-fit: cover;
+    object-position: center;
+    background-color: #ebe0cc;
+
+    @include bp-sm {
+      width: 5rem;
+      height: 5rem;
+    }
+  }
+  &__icon {
+    padding: 0.55rem;
+  }
+  &__image {
+    @include border-radius(100vh);
+    width: 100%;
+    height: 100%;
+  }
+  &__title {
+    color: $col-font;
+    text-align: center;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.625rem;
+    @include bp-sm {
+      font-size: 1rem;
+    }
+  }
+  &__sub-title {
+    color: $col-font;
+    text-align: center;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625rem;
+    opacity: 0.5;
+    margin-bottom: 1.38rem;
+    @include bp-sm {
+      font-size: 1rem;
+      margin-bottom: 3.12rem;
+    }
+  }
+
+  &__description-wrap {
+    position: relative;
+  }
+  &__description {
+    color: $col-font;
+    text-align: center;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+
+    @include bp-sm {
+      font-size: 1rem;
+      line-height: 1.625rem;
+    }
+  }
+
+  .slick-dots {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    li {
+      width: 4rem;
+      height: 0.2rem;
+      margin: 0;
+      padding: 0;
+
+      & button {
+        width: 100%;
+        height: 100%;
+        background-color: #c0bab0;
+        opacity: 0.5;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        padding: 0;
+
+        &:before {
+          content: '';
+        }
+      }
+    }
+  }
+
+  .slick-dots .slick-active {
+    background-color: $col-font;
+    width: 4rem;
+    height: 0.2rem;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+
+    button {
+      background-color: transparent;
+
+      &:before {
+        content: '';
+      }
     }
   }
 }
