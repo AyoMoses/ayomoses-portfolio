@@ -105,10 +105,10 @@ export const TestimonialsSection = () => {
 
             <div className="comment__description-wrap">
               <p className="comment__description">
-                I have worked with Ayo over 4 years. Working on different
-                enterprise projects as the Lead UI Engineer on the projects. The way he
-                interpretes every bit of design to code to the tiniest detail is
-                amazing and working his way through the user experience.
+                Known Ayo for over 5 years and watched him grow. He has worked
+                as the Lead UI Engineer on 5 major enterprise projects I have
+                contracted to him. The way he interpretes every bit of design to
+                code to the tiniest detail is amazing.
               </p>
             </div>
           </div>
