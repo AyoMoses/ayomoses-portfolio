@@ -20,15 +20,6 @@ export const FeaturedProjects = () => {
     setHover((prev) => ({ ...prev, [index]: false }));
   };
 
-  const generateSrcset = (imagePath: string, sizes: number[]) => {
-    return sizes
-      .map((size) => {
-        const replacedPath = imagePath.replace(':size', size.toString());
-        return `${decodeURIComponent(replacedPath)} ${size}w`;
-      })
-      .join(', ');
-  };
-
   return (
     <div className="featured">
       <h2 className="featured__header">Selected projects</h2>
@@ -54,20 +45,19 @@ export const FeaturedProjects = () => {
                   className="featured__video"
                 />
               ) : (
-                <img
-                  sizes="
-                        (max-width: 640px) 100vw,
-                        (min-width: 641px) and (max-width: 1216px) 100vw,
-                        (min-width: 1217px) and (max-width: 1648px) 100vw,
-                        (min-width: 1649px) 100vw"
-                  srcSet={generateSrcset(
-                    project.imageUrl,
-                    [640, 999, 1287, 1216, 1648, 1500, 1596, 1920]
-                  )}
-                  src={generateSrcset(project.imageUrl, [1920]).split(' ')[0]}
-                  alt={project.projectName}
-                  className="featured__image"
-                />
+                // image element
+                <>
+                  <img
+                    src={project.mobileimageUrl}
+                    alt={project.projectName}
+                    className="featured__image"
+                  />
+                  <img
+                    src={project.desktopimageUrl}
+                    alt={project.projectName}
+                    className="featured__image"
+                  />
+                </>
               )}
             </div>
 
@@ -90,14 +80,14 @@ export const FeaturedProjects = () => {
 
             <Link
               to={`${project.projectUrl}`}
-              target='_blank'
+              target="_blank"
               className="button button--black button--black-desktop"
             >
               <span>view project</span>
             </Link>
             <Link
               to={`${project.projectUrl}`}
-              target='_blank'
+              target="_blank"
               className="button button--black button--black-mobile"
             >
               View project

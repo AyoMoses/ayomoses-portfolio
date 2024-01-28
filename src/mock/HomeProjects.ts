@@ -2,7 +2,8 @@ export const MockData = [
   {
     featuredData: [
       {
-        imageUrl: '/src/assets/projects/klic/klic_proj,w_:size.png',
+        mobileimageUrl: '/src/assets/projects/klic/klic_proj,w_640.png',
+        desktopimageUrl: '/src/assets/projects/klic/klic_proj,w_1648.png',
         videoUrl: '',
         techStack: ['NextJS', 'StorybookJS', 'TypeScript', 'SCSS', 'AWS'],
         category: 'web app development',
@@ -12,7 +13,8 @@ export const MockData = [
         projectUrl: 'https://klic.gg',
       },
       {
-        imageUrl: '/src/assets/projects/blish/blish__dashboard,w_:size.png',
+        mobileimageUrl: '/src/assets/projects/blish/blish__dashboard,w_640.png',
+        desktopimageUrl: '/src/assets/projects/blish/blish__dashboard,w_1596.png',
         videoUrl: '/src/assets/projects/video/blish-pay-main.mov',
         techStack: [
           'ReactJS',
@@ -38,7 +40,8 @@ export const MockData = [
         projectUrl: 'https://gbtonline.com',
       },
       {
-        imageUrl: '/src/assets/projects/fortworth-zoo/fortworth-zoo,w_:size.png',
+        imageUrl:
+          '/src/assets/projects/fortworth-zoo/fortworth-zoo,w_:size.png',
         videoUrl: '/src/assets/projects/video/fortworth-zoo.mov',
         techStack: ['SiteWrench CMS', 'Liquid template', 'JavaScript', 'SCSS'],
         projectName: 'Fortworth Zoo',
@@ -53,7 +56,13 @@ export const MockData = [
       {
         imageUrl: '',
         videoUrl: '',
-        techStack: ['SiteWrench CMS', 'Liquid template', 'JavaScript', 'GSAP', 'SCSS'],
+        techStack: [
+          'SiteWrench CMS',
+          'Liquid template',
+          'JavaScript',
+          'GSAP',
+          'SCSS',
+        ],
         projectName: 'Fortworth Zoo',
         category: 'website development',
         description:
