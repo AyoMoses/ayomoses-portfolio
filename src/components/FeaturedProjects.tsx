@@ -45,17 +45,16 @@ export const FeaturedProjects = () => {
                   className="featured__video"
                 />
               ) : (
-                // image element
                 <>
                   <img
                     src={project.mobileimageUrl}
                     alt={project.projectName}
-                    className="featured__image"
+                    className="featured__image featured__image-mobile"
                   />
                   <img
                     src={project.desktopimageUrl}
                     alt={project.projectName}
-                    className="featured__image"
+                    className="featured__image featured__image-desktop"
                   />
                 </>
               )}

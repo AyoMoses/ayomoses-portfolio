@@ -13,8 +13,9 @@ export const MockData = [
         projectUrl: 'https://klic.gg',
       },
       {
-        mobileimageUrl: '/src/assets/projects/blish/blish__dashboard,w_640.png',
-        desktopimageUrl: '/src/assets/projects/blish/blish__dashboard,w_1596.png',
+        mobileimageUrl: '/src/assets/projects/blish/blish-mobile-image.png',
+        desktopimageUrl:
+          '/src/assets/projects/blish/blish__dashboard,w_1596.png',
         videoUrl: '/src/assets/projects/video/blish-pay-main.mov',
         techStack: [
           'ReactJS',
@@ -30,7 +31,9 @@ export const MockData = [
         projectUrl: 'https://app.blishpay.com/',
       },
       {
-        imageUrl: '/src/assets/projects/gbt-online/gbt__online,w_:size.png',
+        mobileimageUrl: '/src/assets/projects/gbt-online/gbt-mobile-image.png',
+        desktopimageUrl:
+          '/src/assets/projects/gbt-online/gbt__online,w_1500.png',
         videoUrl: '/src/assets/projects/video/gbt-about-slider.mov',
         techStack: ['Wordpress', 'JavaScript', 'SCSS'],
         category: 'website development',
@@ -40,8 +43,10 @@ export const MockData = [
         projectUrl: 'https://gbtonline.com',
       },
       {
-        imageUrl:
-          '/src/assets/projects/fortworth-zoo/fortworth-zoo,w_:size.png',
+        mobileimageUrl:
+          '/src/assets/projects/fortworth-zoo/fort-worthzoo-mobile-image.png',
+        desktopimageUrl:
+          '/src/assets/projects/fortworth-zoo/fortworth-zoo,w_1920.png',
         videoUrl: '/src/assets/projects/video/fortworth-zoo.mov',
         techStack: ['SiteWrench CMS', 'Liquid template', 'JavaScript', 'SCSS'],
         projectName: 'Fortworth Zoo',

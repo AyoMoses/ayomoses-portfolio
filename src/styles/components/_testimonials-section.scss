@@ -1,5 +1,5 @@
 .comment {
-  // @include layout-margin;
+  @include layout-margin;
   padding-top: 6.5rem;
   padding-bottom: 8.12rem;
   @include bp-sm {
