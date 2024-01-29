@@ -1,10 +1,22 @@
 .comment {
-  @include layout-margin;
   padding-top: 6.5rem;
   padding-bottom: 8.12rem;
+
+  width: 100%;
+  max-width: calc(100% - 32px);
+  margin: 0 auto;
+
+  @include bp-md {
+    max-width: calc(100% - 300px);
+  }
+  @include bp-lg {
+    max-width: calc(100% - 500px);
+  }
+
   @include bp-sm {
     padding-top: 10rem;
     padding-bottom: 12.5rem;
+    max-width: calc(100% - 50px);
   }
   &__header {
     color: $col-font;
@@ -91,7 +103,8 @@
   &__description-wrap {
     position: relative;
 
-    background-image: url('/src/assets/icons/quote-icon.svg'), url('/src/assets/icons/quote-icon.svg');
+    background-image: url('/src/assets/icons/quote-icon.svg'),
+      url('/src/assets/icons/quote-icon.svg');
     background-repeat: no-repeat;
     background-position: -0.3% 0%, bottom right;
   }

@@ -35,7 +35,7 @@ export const MockData = [
         desktopimageUrl:
           '/src/assets/projects/gbt-online/gbt__online,w_1500.png',
         videoUrl: '/src/assets/projects/video/gbt-about-slider.mov',
-        techStack: ['Wordpress', 'JavaScript', 'SCSS'],
+        techStack: ['Wordpress', 'PHP', 'ACF', 'JavaScript', 'SCSS'],
         category: 'website development',
         projectName: 'Guaranty Bank',
         description:
