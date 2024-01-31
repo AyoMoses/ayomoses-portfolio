@@ -1,13 +1,13 @@
 .projects {
   &__header {
+    @include layout-margin;
     color: $col-font;
     font-size: 1.875rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     margin-top: 2.13rem;
-    margin-bottom: 0.63rem;
-    @include layout-margin;
+    margin-bottom: 1rem;
 
     @include bp-md {
       font-size: 3.75rem;
@@ -17,7 +17,7 @@
   }
 
   &__section-header {
-    font-size: 1.625rem;
+    font-size: 1.225rem;
     font-weight: 700;
     line-height: normal;
     text-align: center;
@@ -90,11 +90,8 @@
 
   &__image {
     object-fit: cover;
-    // height: 600px;
+
     @include border-radius(3.125rem);
-    // @include bp-sm {
-    //   height: 500px;
-    // }
   }
 
   &__image-mobile {
