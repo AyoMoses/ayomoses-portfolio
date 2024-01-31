@@ -111,9 +111,9 @@
     -ms-border-radius: 0.3125rem;
     -o-border-radius: 0.3125rem;
     margin-top: 1.25rem;
-    @include bp-md {
-      display: none;
-    }
+    // @include bp-md {
+    //   display: none;
+    // }
   }
   &--black-desktop {
     display: none;
