@@ -1,0 +1,185 @@
+.projects {
+  &__header {
+    color: $col-font;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 2.13rem;
+    margin-bottom: 0.63rem;
+    @include layout-margin;
+
+    @include bp-md {
+      font-size: 3.75rem;
+      margin-top: 3.13rem;
+      margin-bottom: 1.44rem;
+    }
+  }
+
+  &__section-header {
+    font-size: 1.625rem;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 1.13rem;
+    padding-top: 1rem;
+    @include layout-margin;
+    @include bp-sm {
+      font-size: 2.75rem;
+    }
+  }
+
+  &__section {
+    width: 100%;
+    background: #f5f0e6;
+    box-shadow: 0px 4px 80px 0px rgba(230, 212, 203, 0.3);
+    margin-bottom: 2.5rem;
+
+    @include bp-md {
+      margin-bottom: 1.25rem;
+    }
+  }
+
+  &__inner {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    @include layout-margin;
+    padding-bottom: 1.88rem;
+    padding-top: 1.25rem;
+
+    @include bp-sm {
+      grid-template-columns: 2fr 1fr;
+      gap: 7.56rem;
+      padding-bottom: 3.31rem;
+      padding-top: 3.37rem;
+    }
+  }
+
+  &__image-container {
+    @include border-radius(0.9375rem);
+    width: 100%;
+    height: 15.625rem;
+    position: relative;
+    overflow: hidden;
+
+    @include bp-md {
+      @include border-radius(3.125rem);
+      width: 28.8125rem;
+      height: 26.5rem;
+    }
+
+    & img {
+      @include border-radius(0.9375rem);
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top;
+      position: absolute;
+      right: 0;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      aspect-ratio: 16 / 9;
+
+      @include bp-md {
+        @include border-radius(3.125rem);
+      }
+    }
+  }
+
+  &__image {
+    object-fit: cover;
+    // height: 600px;
+    @include border-radius(3.125rem);
+    // @include bp-sm {
+    //   height: 500px;
+    // }
+  }
+
+  &__image-mobile {
+    height: 100%;
+
+    @include bp-sm {
+      display: none;
+    }
+  }
+  &__image-desktop {
+    display: none;
+    @include bp-sm {
+      display: block;
+      height: 100%;
+    }
+  }
+  &__project-name {
+    color: $col-font;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 1.13rem;
+    margin-bottom: 0.63rem;
+
+    @include bp-md {
+      font-size: 1.6rem;
+      margin-top: 1.25rem;
+      margin-bottom: 0.62rem;
+    }
+  }
+  &__tags-wrap {
+    @include column;
+    margin-bottom: 0.63rem;
+    flex-wrap: wrap;
+
+    @include bp-md {
+    }
+  }
+  &__tags {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    & span {
+      font-size: 0.625rem;
+      color: $col-font;
+      line-height: 1.625rem;
+      margin-inline: 0.3rem;
+    }
+  }
+  &__stack {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    &-list {
+      font-size: 0.625rem;
+      color: $col-font;
+      line-height: 1.625rem;
+      padding: 0;
+
+      @include bp-md {
+        font-size: 0.875rem;
+      }
+    }
+  }
+  &__category {
+    font-size: 0.625rem;
+    color: $col-brand;
+    line-height: 1.625rem;
+    text-transform: capitalize;
+
+    @include bp-md {
+      font-size: 0.875rem;
+    }
+  }
+  &__description {
+    color: $col-font;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1.375rem;
+    @include bp-md {
+      font-size: 1rem;
+      line-height: 1.625rem;
+    }
+  }
+}

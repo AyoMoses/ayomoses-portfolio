@@ -4,7 +4,7 @@ import './styles/main.scss';
 import Header from './components/Header';
 import { HomePage } from './pages/Homepage';
 import { AboutMePage } from './pages/About';
-import { ProjectsPage } from './pages/Projects';
+import { ProjectsPage } from './pages/Projects/Projects';
 import { DesignsPage } from './pages/Designs';
 import { ContactMePage } from './pages/Contact';
 import { Footer } from './components/Footer';
