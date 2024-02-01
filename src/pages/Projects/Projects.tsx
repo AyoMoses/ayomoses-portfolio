@@ -6,7 +6,7 @@ export const ProjectsPage = () => {
       <h1 className="projects__header">Projects</h1>
 
       <ProjectSlider
-        projStack="ReactJS"
+        projStack="NextJS"
         sectionHeader="ReactJS based Projects"
       />
     </div>
