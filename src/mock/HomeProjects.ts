@@ -154,6 +154,21 @@ export const MockData = [
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit arcu ac condimentum orci aliquet. Mattis sapien vehicula sit elementum mus est dolor, nulla. Cursus nibh facilisis fames leo nibh vel ac. Venenatis ornare varius elementum adipiscing. Non id proin vitae tellus tortor massa. Lacinia quis sollicitudin in morbi. Vestibulum massa in at mauris. Consectetur integer eget nisl vitae. Turpis leo.',
         projectUrl: 'https://bocahistory.org',
       },
+
+
+      {
+        mobileimageUrl:
+          '/src/assets/projects/zooceanarium/zooceanarium-mobile.png',
+        desktopimageUrl:
+          '/src/assets/projects/zooceanarium/zoooceanarium.png',
+        videoUrl: '/src/assets/projects/video/fortworth-zoo.mov',
+        techStack: ['Sitewrench CMS', 'JavaScript', 'SCSS'],
+        projectName: 'Zooceanarium',
+        category: 'Acquarium',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit arcu ac condimentum orci aliquet. Mattis sapien vehicula sit elementum mus est dolor, nulla. Cursus nibh facilisis fames leo nibh vel ac. Venenatis ornare varius elementum adipiscing. Non id proin vitae tellus tortor massa. Lacinia quis sollicitudin in morbi. Vestibulum massa in at mauris. Consectetur integer eget nisl vitae. Turpis leo.',
+        projectUrl: 'https://www.zooceanarium.com/',
+      },
     ],
   },
 ];
