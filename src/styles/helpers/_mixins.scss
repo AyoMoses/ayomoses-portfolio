@@ -114,6 +114,20 @@ $z-index: (
   }
 }
 
+@mixin layout-margin-sm {
+  width: 100%;
+  max-width: calc(100% - 32px);
+  margin: 0 auto;
+
+  @include bp-md {
+    max-width: calc(100% - 150px);
+  }
+
+  @include bp-sm {
+    max-width: calc(100% - 100px);
+  }
+}
+
 @mixin transition {
   transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
