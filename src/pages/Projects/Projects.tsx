@@ -5,10 +5,19 @@ export const ProjectsPage = () => {
     <div className="projects">
       <h1 className="projects__header">Projects</h1>
 
-      <ProjectSlider
-        projStack="NextJS"
-        sectionHeader="ReactJS based Projects"
-      />
+      <main className='projects__container'>
+        <ProjectSlider projStack="NextJS" sectionHeader="ReactJS Projects" />
+
+        <ProjectSlider
+          projStack="Sitewrench CMS"
+          sectionHeader="Liquid template Projects"
+        />
+
+        <ProjectSlider
+          projStack="Wordpress CMS"
+          sectionHeader="Wordpress Projects"
+        />
+      </main>
     </div>
   );
 };

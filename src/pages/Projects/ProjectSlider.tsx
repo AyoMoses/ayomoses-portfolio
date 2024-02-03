@@ -9,8 +9,8 @@ import ReactSlick from 'react-slick';
 
 import type { Settings } from 'react-slick';
 
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+// import 'slick-carousel/slick/slick.css';
+// import 'slick-carousel/slick/slick-theme.css';
 
 interface ProjectSliderProps {
   projStack: string;
@@ -27,6 +27,7 @@ const settings: Settings = {
   pauseOnHover: true,
   slidesToShow: 1,
   slidesToScroll: 1,
+  swipeToSlide: true,
 
   responsive: [
     {

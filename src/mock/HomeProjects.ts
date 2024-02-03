@@ -35,7 +35,7 @@ export const MockData = [
         desktopimageUrl:
           '/src/assets/projects/gbt-online/gbt__online,w_1500.png',
         videoUrl: '/src/assets/projects/video/gbt-about-slider.mov',
-        techStack: ['Wordpress', 'PHP', 'ACF', 'JavaScript', 'SCSS'],
+        techStack: ['Wordpress CMS', 'PHP', 'ACF', 'JavaScript', 'SCSS'],
         category: 'Bank website',
         projectName: 'Guaranty Bank',
         description:
@@ -92,7 +92,7 @@ export const MockData = [
         desktopimageUrl:
           '/src/assets/projects/gbt-online/gbt__online,w_1500.png',
         videoUrl: '/src/assets/projects/video/gbt-about-slider.mov',
-        techStack: ['Wordpress', 'PHP', 'ACF', 'JavaScript', 'SCSS'],
+        techStack: ['Wordpress CMS', 'PHP', 'ACF', 'JavaScript', 'SCSS'],
         category: 'Bank website',
         projectName: 'Guaranty Bank',
         description:
@@ -168,6 +168,21 @@ export const MockData = [
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit arcu ac condimentum orci aliquet. Mattis sapien vehicula sit elementum mus est dolor, nulla. Cursus nibh facilisis fames leo nibh vel ac. Venenatis ornare varius elementum adipiscing. Non id proin vitae tellus tortor massa. Lacinia quis sollicitudin in morbi. Vestibulum massa in at mauris. Consectetur integer eget nisl vitae. Turpis leo.',
         projectUrl: 'https://www.zooceanarium.com/',
+      },
+
+
+      {
+        mobileimageUrl:
+          '/src/assets/projects/wildhorse/wildhorse-mobile.png',
+        desktopimageUrl:
+          '/src/assets/projects/wildhorse/wildhorse-web.png',
+        videoUrl: '/src/assets/projects/video/fortworth-zoo.mov',
+        techStack: ['Wordpress CMS', 'JavaScript', 'SCSS'],
+        projectName: 'Wildhorse Saloon',
+        category: 'Events',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit arcu ac condimentum orci aliquet. Mattis sapien vehicula sit elementum mus est dolor, nulla. Cursus nibh facilisis fames leo nibh vel ac. Venenatis ornare varius elementum adipiscing. Non id proin vitae tellus tortor massa. Lacinia quis sollicitudin in morbi. Vestibulum massa in at mauris. Consectetur integer eget nisl vitae. Turpis leo.',
+        projectUrl: 'https://wildhorsesaloon.com',
       },
     ],
   },

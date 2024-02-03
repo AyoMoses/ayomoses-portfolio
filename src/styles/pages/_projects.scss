@@ -3,6 +3,13 @@
   @include bp-md {
     margin-bottom: 7rem;
   }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
   &__header {
     @include layout-margin-sm;
     color: $col-font;
@@ -95,7 +102,6 @@
       left: 0;
       top: 0;
       bottom: 0;
-      aspect-ratio: 16 / 9;
 
       @include bp-md {
         @include border-radius(3.125rem);
@@ -107,22 +113,24 @@
     object-fit: cover;
 
     @include border-radius(3.125rem);
-  }
 
-  &__image-mobile {
-    height: 100%;
-
-    @include bp-sm {
-      display: none;
-    }
-  }
-  &__image-desktop {
-    display: none;
-    @include bp-sm {
-      display: block;
+    &-mobile {
       height: 100%;
+
+      @include bp-sm {
+        display: none !important;
+      }
+    }
+
+    &-desktop {
+      display: none !important;
+      @include bp-sm {
+        display: block;
+        height: 100%;
+      }
     }
   }
+
   &__project-name {
     color: $col-font;
     font-size: 1rem;
@@ -200,6 +208,7 @@
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
+    padding-block: 3rem;
 
     li {
       width: 4rem;
@@ -243,5 +252,9 @@
         content: '';
       }
     }
+  }
+
+  & .slick-slide img {
+    display: auto;
   }
 }
