@@ -2,7 +2,7 @@ export const MockData = [
   {
     featuredData: [
       {
-        mobileimageUrl: '/klic_proj,w_640.png',
+        mobileimageUrl: '/klic_proj,w_640.png', 
         desktopimageUrl: '/klic_proj,w_1648.png',
         videoUrl: '',
         techStack: ['NextJS', 'StorybookJS', 'TypeScript', 'SCSS', 'AWS'],

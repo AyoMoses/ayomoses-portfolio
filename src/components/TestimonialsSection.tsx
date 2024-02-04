@@ -7,7 +7,7 @@ import 'slick-carousel/slick/slick-theme.css';
 
 import userIcon from '../assets/icons/user-icon.svg';
 import brookImg from '/brook.jpeg';
-import jacobImg from '/jacob.png';
+import jacobImg from '/jacob.png'; 
 
 const settings: Settings = {
   autoplay: true,
