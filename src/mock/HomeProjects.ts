@@ -114,10 +114,8 @@ export const MockData = [
       },
 
       {
-        mobileimageUrl:
-          '/src/assets/projects/homedotly/homedotly-mobile.png',
-        desktopimageUrl:
-          '/src/assets/projects/homedotly/homedotly.png',
+        mobileimageUrl: '/src/assets/projects/homedotly/homedotly-mobile.png',
+        desktopimageUrl: '/src/assets/projects/homedotly/homedotly.png',
         videoUrl: '/src/assets/projects/video/fortworth-zoo.mov',
         techStack: ['NextJS', 'AWS', 'TypeScript', 'SCSS', 'StorybookJS'],
         projectName: 'Homedotly',
@@ -155,12 +153,10 @@ export const MockData = [
         projectUrl: 'https://bocahistory.org',
       },
 
-
       {
         mobileimageUrl:
           '/src/assets/projects/zooceanarium/zooceanarium-mobile.png',
-        desktopimageUrl:
-          '/src/assets/projects/zooceanarium/zoooceanarium.png',
+        desktopimageUrl: '/src/assets/projects/zooceanarium/zoooceanarium.png',
         videoUrl: '/src/assets/projects/video/fortworth-zoo.mov',
         techStack: ['Sitewrench CMS', 'JavaScript', 'SCSS'],
         projectName: 'Zooceanarium',
@@ -170,12 +166,9 @@ export const MockData = [
         projectUrl: 'https://www.zooceanarium.com/',
       },
 
-
       {
-        mobileimageUrl:
-          '/src/assets/projects/wildhorse/wildhorse-mobile.png',
-        desktopimageUrl:
-          '/src/assets/projects/wildhorse/wildhorse-web.png',
+        mobileimageUrl: '/src/assets/projects/wildhorse/wildhorse-mobile.png',
+        desktopimageUrl: '/src/assets/projects/wildhorse/wildhorse-web.png',
         videoUrl: '/src/assets/projects/video/fortworth-zoo.mov',
         techStack: ['Wordpress CMS', 'JavaScript', 'SCSS'],
         projectName: 'Wildhorse Saloon',
@@ -186,10 +179,8 @@ export const MockData = [
       },
 
       {
-        mobileimageUrl:
-          '/src/assets/projects/cheekwood/cheekwood-mobile.png',
-        desktopimageUrl:
-          '/src/assets/projects/cheekwood/cheekwood-web.png',
+        mobileimageUrl: '/src/assets/projects/cheekwood/cheekwood-mobile.png',
+        desktopimageUrl: '/src/assets/projects/cheekwood/cheekwood-web.png',
         videoUrl: '/src/assets/projects/video/fortworth-zoo.mov',
         techStack: ['Wordpress CMS', 'JavaScript', 'SCSS'],
         projectName: 'Cheekwood',
@@ -197,6 +188,18 @@ export const MockData = [
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit arcu ac condimentum orci aliquet. Mattis sapien vehicula sit elementum mus est dolor, nulla. Cursus nibh facilisis fames leo nibh vel ac. Venenatis ornare varius elementum adipiscing. Non id proin vitae tellus tortor massa. Lacinia quis sollicitudin in morbi. Vestibulum massa in at mauris. Consectetur integer eget nisl vitae. Turpis leo.',
         projectUrl: 'https://cheekwood.org/',
+      },
+
+      {
+        mobileimageUrl: '/src/assets/projects/cheekwood/cheekwood-mobile.png',
+        desktopimageUrl: '/src/assets/projects/cheekwood/cheekwood-web.png',
+        videoUrl: '/src/assets/projects/video/fortworth-zoo.mov',
+        techStack: ['Wordpress CMS', 'JavaScript', 'SCSS'],
+        projectName: 'West Palm Beach',
+        category: 'Hospitality, Hotel',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit arcu ac condimentum orci aliquet. Mattis sapien vehicula sit elementum mus est dolor, nulla. Cursus nibh facilisis fames leo nibh vel ac. Venenatis ornare varius elementum adipiscing. Non id proin vitae tellus tortor massa. Lacinia quis sollicitudin in morbi. Vestibulum massa in at mauris. Consectetur integer eget nisl vitae. Turpis leo.',
+        projectUrl: -'https://downtownwpb.com/',
       },
     ],
   },
