@@ -97,11 +97,11 @@
       height: 100%;
       object-fit: cover;
       object-position: top;
-      position: absolute;
-      right: 0;
-      left: 0;
-      top: 0;
-      bottom: 0;
+    //   position: absolute;
+    //   right: 0;
+    //   left: 0;
+    //   top: 0;
+    //   bottom: 0;
 
       @include bp-md {
         @include border-radius(3.125rem);
@@ -109,25 +109,19 @@
     }
   }
 
-  &__image {
-    object-fit: cover;
+  &__image-mobile {
+    height: 100%;
 
-    @include border-radius(3.125rem);
-
-    &-mobile {
-      height: 100%;
-
-      @include bp-sm {
-        display: none !important;
-      }
+    @include bp-sm {
+      display: none;
     }
+  }
 
-    &-desktop {
-      display: none !important;
-      @include bp-sm {
-        display: block;
-        height: 100%;
-      }
+  &__image-desktop {
+    display: none;
+    @include bp-sm {
+      display: block;
+      height: 100%;
     }
   }
 
@@ -208,7 +202,11 @@
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    padding-block: 3rem;
+    padding-block: 0;
+
+    @include bp-md {
+      padding-block: 3rem;
+    }
 
     li {
       width: 4rem;
@@ -254,7 +252,7 @@
     }
   }
 
-  & .slick-slide img {
-    display: auto;
-  }
+  //   & .slick-slide img {
+  //     display: auto;
+  //   }
 }

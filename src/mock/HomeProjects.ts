@@ -184,6 +184,20 @@ export const MockData = [
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit arcu ac condimentum orci aliquet. Mattis sapien vehicula sit elementum mus est dolor, nulla. Cursus nibh facilisis fames leo nibh vel ac. Venenatis ornare varius elementum adipiscing. Non id proin vitae tellus tortor massa. Lacinia quis sollicitudin in morbi. Vestibulum massa in at mauris. Consectetur integer eget nisl vitae. Turpis leo.',
         projectUrl: 'https://wildhorsesaloon.com',
       },
+
+      {
+        mobileimageUrl:
+          '/src/assets/projects/cheekwood/cheekwood-mobile.png',
+        desktopimageUrl:
+          '/src/assets/projects/cheekwood/cheekwood-web.png',
+        videoUrl: '/src/assets/projects/video/fortworth-zoo.mov',
+        techStack: ['Wordpress CMS', 'JavaScript', 'SCSS'],
+        projectName: 'Cheekwood',
+        category: 'Hospitality, Hotel',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit arcu ac condimentum orci aliquet. Mattis sapien vehicula sit elementum mus est dolor, nulla. Cursus nibh facilisis fames leo nibh vel ac. Venenatis ornare varius elementum adipiscing. Non id proin vitae tellus tortor massa. Lacinia quis sollicitudin in morbi. Vestibulum massa in at mauris. Consectetur integer eget nisl vitae. Turpis leo.',
+        projectUrl: 'https://cheekwood.org/',
+      },
     ],
   },
 ];

@@ -94,7 +94,7 @@ export const ProjectSlider: React.FC<ProjectSliderProps> = ({
             </div>
 
             <div className="projects__image-container">
-              {project.mobileimageUrl && (
+              {/* {project.mobileimageUrl && (
                 <img
                   src={project.mobileimageUrl}
                   alt={project.projectName}
@@ -107,7 +107,18 @@ export const ProjectSlider: React.FC<ProjectSliderProps> = ({
                   alt={project.projectName}
                   className="featured__image featured__image-desktop"
                 />
-              )}
+              )} */}
+              <img
+                src={project.mobileimageUrl}
+                alt={project.projectName}
+                className="featured__image featured__image-mobile"
+              />
+
+              <img
+                src={project.desktopimageUrl}
+                alt={project.projectName}
+                className="featured__image featured__image-desktop"
+              />
             </div>
           </div>
         ))}
