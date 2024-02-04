@@ -216,3 +216,15 @@
 .hide-video .featured__video {
   opacity: 0;
 }
+
+.featured-button-desktop {
+  display: none;
+  @include bp-sm {
+    display: flex;
+  }
+}
+.featured-button-mobile {
+  @include bp-sm {
+    display: none;
+  }
+}

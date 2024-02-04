@@ -80,14 +80,14 @@ export const FeaturedProjects = () => {
             <Link
               to={`${project.projectUrl}`}
               target="_blank"
-              className="button button--black button--black-desktop"
+              className="button button--black button--black-desktop featured-button-desktop"
             >
               <span>view project</span>
             </Link>
             <Link
               to={`${project.projectUrl}`}
               target="_blank"
-              className="button button--black button--black-mobile"
+              className="button button--black button--black-mobile featured-button-mobile"
             >
               View project
               <SVG src={rightIcon} />

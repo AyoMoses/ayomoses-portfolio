@@ -2,8 +2,8 @@ export const MockData = [
   {
     featuredData: [
       {
-        mobileimageUrl: '/src/assets/projects/klic/klic_proj,w_640.png',
-        desktopimageUrl: '/src/assets/projects/klic/klic_proj,w_1648.png',
+        mobileimageUrl: '/klic_proj,w_640.png',
+        desktopimageUrl: '/klic_proj,w_1648.png',
         videoUrl: '',
         techStack: ['NextJS', 'StorybookJS', 'TypeScript', 'SCSS', 'AWS'],
         category: 'Game streaming app',
@@ -13,10 +13,9 @@ export const MockData = [
         projectUrl: 'https://klic.gg',
       },
       {
-        mobileimageUrl: '/src/assets/projects/blish/blish-mobile-image.png',
-        desktopimageUrl:
-          '/src/assets/projects/blish/blish__dashboard,w_1596.png',
-        videoUrl: '/src/assets/projects/video/blish-pay-main.mov',
+        mobileimageUrl: '/blish-mobile-image.png',
+        desktopimageUrl: '/blish__dashboard,w_1596.png',
+        videoUrl: '/blish-pay-main.mov',
         techStack: [
           'ReactJS',
           'TypeScript',
@@ -31,10 +30,9 @@ export const MockData = [
         projectUrl: 'https://app.blishpay.com/',
       },
       {
-        mobileimageUrl: '/src/assets/projects/gbt-online/gbt-mobile-image.png',
-        desktopimageUrl:
-          '/src/assets/projects/gbt-online/gbt__online,w_1500.png',
-        videoUrl: '/src/assets/projects/video/gbt-about-slider.mov',
+        mobileimageUrl: '/gbt-mobile-image.png',
+        desktopimageUrl: '/gbt__online,w_1500.png',
+        videoUrl: '/gbt-about-slider.mov',
         techStack: ['Wordpress CMS', 'PHP', 'ACF', 'JavaScript', 'SCSS'],
         category: 'Bank website',
         projectName: 'Guaranty Bank',
@@ -43,11 +41,9 @@ export const MockData = [
         projectUrl: 'https://gbtonline.com',
       },
       {
-        mobileimageUrl:
-          '/src/assets/projects/fortworth-zoo/fort-worthzoo-mobile-image.png',
-        desktopimageUrl:
-          '/src/assets/projects/fortworth-zoo/fortworth-zoo,w_1920.png',
-        videoUrl: '/src/assets/projects/video/fortworth-zoo.mov',
+        mobileimageUrl: '/fort-worthzoo-mobile-image.png',
+        desktopimageUrl: '/fortworth-zoo,w_1920.png',
+        videoUrl: '/fortworth-zoo.mov',
         techStack: ['SiteWrench CMS', 'Liquid template', 'JavaScript', 'SCSS'],
         projectName: 'Fortworth Zoo',
         category: 'Zoo website',
@@ -59,8 +55,8 @@ export const MockData = [
 
     projectsData: [
       {
-        mobileimageUrl: '/src/assets/projects/klic/klic_proj,w_640.png',
-        desktopimageUrl: '/src/assets/projects/klic/klic_proj,w_1648.png',
+        mobileimageUrl: '/klic_proj,w_640.png',
+        desktopimageUrl: '/klic_proj,w_1648.png',
         videoUrl: '',
         techStack: ['NextJS', 'StorybookJS', 'TypeScript', 'SCSS', 'AWS'],
         category: 'Game streaming app',
@@ -70,10 +66,9 @@ export const MockData = [
         projectUrl: 'https://klic.gg',
       },
       {
-        mobileimageUrl: '/src/assets/projects/blish/blish-mobile-image.png',
-        desktopimageUrl:
-          '/src/assets/projects/blish/blish__dashboard,w_1596.png',
-        videoUrl: '/src/assets/projects/video/blish-pay-main.mov',
+        mobileimageUrl: '/blish-mobile-image.png',
+        desktopimageUrl: '/blish__dashboard,w_1596.png',
+        videoUrl: '',
         techStack: [
           'ReactJS',
           'TypeScript',
@@ -88,10 +83,9 @@ export const MockData = [
         projectUrl: 'https://app.blishpay.com/',
       },
       {
-        mobileimageUrl: '/src/assets/projects/gbt-online/gbt-mobile-image.png',
-        desktopimageUrl:
-          '/src/assets/projects/gbt-online/gbt__online,w_1500.png',
-        videoUrl: '/src/assets/projects/video/gbt-about-slider.mov',
+        mobileimageUrl: '/gbt-mobile-image.png',
+        desktopimageUrl: '/gbt__online,w_1500.png',
+        videoUrl: '',
         techStack: ['Wordpress CMS', 'PHP', 'ACF', 'JavaScript', 'SCSS'],
         category: 'Bank website',
         projectName: 'Guaranty Bank',
@@ -100,11 +94,9 @@ export const MockData = [
         projectUrl: 'https://gbtonline.com',
       },
       {
-        mobileimageUrl:
-          '/src/assets/projects/fortworth-zoo/fort-worthzoo-mobile-image.png',
-        desktopimageUrl:
-          '/src/assets/projects/fortworth-zoo/fortworth-zoo,w_1920.png',
-        videoUrl: '/src/assets/projects/video/fortworth-zoo.mov',
+        mobileimageUrl: '/fort-worthzoo-mobile-image.png',
+        desktopimageUrl: '/fortworth-zoo,w_1920.png',
+        videoUrl: '',
         techStack: ['SiteWrench CMS', 'Liquid template', 'JavaScript', 'SCSS'],
         projectName: 'Fortworth Zoo',
         category: 'Zoo Website',
@@ -114,9 +106,9 @@ export const MockData = [
       },
 
       {
-        mobileimageUrl: '/src/assets/projects/homedotly/homedotly-mobile.png',
-        desktopimageUrl: '/src/assets/projects/homedotly/homedotly.png',
-        videoUrl: '/src/assets/projects/video/fortworth-zoo.mov',
+        mobileimageUrl: '/homedotly-mobile.png',
+        desktopimageUrl: '/homedotly.png',
+        videoUrl: '',
         techStack: ['NextJS', 'AWS', 'TypeScript', 'SCSS', 'StorybookJS'],
         projectName: 'Homedotly',
         category: 'Assets Mgt App',
@@ -126,11 +118,9 @@ export const MockData = [
       },
 
       {
-        mobileimageUrl:
-          '/src/assets/projects/cheese-factory/cheese-factory-mobile.png',
-        desktopimageUrl:
-          '/src/assets/projects/cheese-factory/cheese-factory.png',
-        videoUrl: '/src/assets/projects/video/fortworth-zoo.mov',
+        mobileimageUrl: '/cheese-factory-mobile.png',
+        desktopimageUrl: '/cheese-factory.png',
+        videoUrl: '',
         techStack: ['AngularJS', 'AWS', 'TypeScript', 'SCSS'],
         projectName: 'Cheese Factory',
         category: 'Ecommerce',
@@ -140,11 +130,9 @@ export const MockData = [
       },
 
       {
-        mobileimageUrl:
-          '/src/assets/projects/boca-raton/boca-raton-mobile-image.png',
-        desktopimageUrl:
-          '/src/assets/projects/boca-raton/boca-raton-web-image.png',
-        videoUrl: '/src/assets/projects/video/fortworth-zoo.mov',
+        mobileimageUrl: '/boca-raton-mobile-image.png',
+        desktopimageUrl: '/boca-raton-web-image.png',
+        videoUrl: '',
         techStack: ['Sitewrench CMS', 'Gulp', 'JavaScript', 'SCSS'],
         projectName: 'Boca Raton',
         category: 'Museum',
@@ -154,10 +142,9 @@ export const MockData = [
       },
 
       {
-        mobileimageUrl:
-          '/src/assets/projects/zooceanarium/zooceanarium-mobile.png',
-        desktopimageUrl: '/src/assets/projects/zooceanarium/zoooceanarium.png',
-        videoUrl: '/src/assets/projects/video/fortworth-zoo.mov',
+        mobileimageUrl: '/zooceanarium-mobile.png',
+        desktopimageUrl: '/zoooceanarium.png',
+        videoUrl: '',
         techStack: ['Sitewrench CMS', 'JavaScript', 'SCSS'],
         projectName: 'Zooceanarium',
         category: 'Acquarium',
@@ -167,9 +154,9 @@ export const MockData = [
       },
 
       {
-        mobileimageUrl: '/src/assets/projects/wildhorse/wildhorse-mobile.png',
-        desktopimageUrl: '/src/assets/projects/wildhorse/wildhorse-web.png',
-        videoUrl: '/src/assets/projects/video/fortworth-zoo.mov',
+        mobileimageUrl: '/wildhorse-mobile.png',
+        desktopimageUrl: '/wildhorse-web.png',
+        videoUrl: '',
         techStack: ['Wordpress CMS', 'JavaScript', 'SCSS'],
         projectName: 'Wildhorse Saloon',
         category: 'Events',
@@ -179,9 +166,9 @@ export const MockData = [
       },
 
       {
-        mobileimageUrl: '/src/assets/projects/cheekwood/cheekwood-mobile.png',
-        desktopimageUrl: '/src/assets/projects/cheekwood/cheekwood-web.png',
-        videoUrl: '/src/assets/projects/video/fortworth-zoo.mov',
+        mobileimageUrl: '/cheekwood-mobile.png',
+        desktopimageUrl: '/cheekwood-web.png',
+        videoUrl: '',
         techStack: ['Wordpress CMS', 'JavaScript', 'SCSS'],
         projectName: 'Cheekwood',
         category: 'Hospitality, Hotel',
@@ -191,9 +178,9 @@ export const MockData = [
       },
 
       {
-        mobileimageUrl: '/src/assets/projects/cheekwood/cheekwood-mobile.png',
-        desktopimageUrl: '/src/assets/projects/cheekwood/cheekwood-web.png',
-        videoUrl: '/src/assets/projects/video/fortworth-zoo.mov',
+        mobileimageUrl: '/cheekwood-mobile.png',
+        desktopimageUrl: '/cheekwood-web.png',
+        videoUrl: '',
         techStack: ['Wordpress CMS', 'JavaScript', 'SCSS'],
         projectName: 'West Palm Beach',
         category: 'Hospitality, Hotel',
@@ -203,21 +190,21 @@ export const MockData = [
       },
 
       {
-        mobileimageUrl: '/src/assets/projects/st-anthony/st-anthony-mobile.png',
-        desktopimageUrl: '/src/assets/projects/st-anthony/st-anthony-web.png',
-        videoUrl: '/src/assets/projects/video/fortworth-zoo.mov',
+        mobileimageUrl: '/st-anthony-mobile.png',
+        desktopimageUrl: '/st-anthony-web.png',
+        videoUrl: '',
         techStack: ['Wordpress CMS', 'JavaScript', 'SCSS'],
-        projectName: 'St. Anthony\'s Foundation',
+        projectName: "St. Anthony's Foundation",
         category: 'Hospitality, Hotel',
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit arcu ac condimentum orci aliquet. Mattis sapien vehicula sit elementum mus est dolor, nulla. Cursus nibh facilisis fames leo nibh vel ac. Venenatis ornare varius elementum adipiscing. Non id proin vitae tellus tortor massa. Lacinia quis sollicitudin in morbi. Vestibulum massa in at mauris. Consectetur integer eget nisl vitae. Turpis leo.',
         projectUrl: 'https://www.stanthonysf.org/',
       },
-      
+
       {
-        mobileimageUrl: '/src/assets/projects/UofM/U-of-M-mobile.png',
-        desktopimageUrl: '/src/assets/projects/UofM/U-of-M-web.png',
-        videoUrl: '/src/assets/projects/video/fortworth-zoo.mov',
+        mobileimageUrl: '/U-of-M-mobile.png',
+        desktopimageUrl: '/U-of-M-web.png',
+        videoUrl: '',
         techStack: ['Wordpress CMS', 'JavaScript', 'SCSS'],
         projectName: 'U of M Aquifer',
         category: 'Engineering',
