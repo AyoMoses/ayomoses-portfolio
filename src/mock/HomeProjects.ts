@@ -199,7 +199,31 @@ export const MockData = [
         category: 'Hospitality, Hotel',
         description:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit arcu ac condimentum orci aliquet. Mattis sapien vehicula sit elementum mus est dolor, nulla. Cursus nibh facilisis fames leo nibh vel ac. Venenatis ornare varius elementum adipiscing. Non id proin vitae tellus tortor massa. Lacinia quis sollicitudin in morbi. Vestibulum massa in at mauris. Consectetur integer eget nisl vitae. Turpis leo.',
-        projectUrl: -'https://downtownwpb.com/',
+        projectUrl: 'https://downtownwpb.com/',
+      },
+
+      {
+        mobileimageUrl: '/src/assets/projects/st-anthony/st-anthony-mobile.png',
+        desktopimageUrl: '/src/assets/projects/st-anthony/st-anthony-web.png',
+        videoUrl: '/src/assets/projects/video/fortworth-zoo.mov',
+        techStack: ['Wordpress CMS', 'JavaScript', 'SCSS'],
+        projectName: 'St. Anthony\'s Foundation',
+        category: 'Hospitality, Hotel',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit arcu ac condimentum orci aliquet. Mattis sapien vehicula sit elementum mus est dolor, nulla. Cursus nibh facilisis fames leo nibh vel ac. Venenatis ornare varius elementum adipiscing. Non id proin vitae tellus tortor massa. Lacinia quis sollicitudin in morbi. Vestibulum massa in at mauris. Consectetur integer eget nisl vitae. Turpis leo.',
+        projectUrl: 'https://www.stanthonysf.org/',
+      },
+      
+      {
+        mobileimageUrl: '/src/assets/projects/UofM/U-of-M-mobile.png',
+        desktopimageUrl: '/src/assets/projects/UofM/U-of-M-web.png',
+        videoUrl: '/src/assets/projects/video/fortworth-zoo.mov',
+        techStack: ['Wordpress CMS', 'JavaScript', 'SCSS'],
+        projectName: 'U of M Aquifer',
+        category: 'Engineering',
+        description:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit arcu ac condimentum orci aliquet. Mattis sapien vehicula sit elementum mus est dolor, nulla. Cursus nibh facilisis fames leo nibh vel ac. Venenatis ornare varius elementum adipiscing. Non id proin vitae tellus tortor massa. Lacinia quis sollicitudin in morbi. Vestibulum massa in at mauris. Consectetur integer eget nisl vitae. Turpis leo.',
+        projectUrl: 'https://midsouthwater.org/',
       },
     ],
   },
