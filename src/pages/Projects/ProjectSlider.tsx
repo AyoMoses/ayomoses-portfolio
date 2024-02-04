@@ -111,13 +111,13 @@ export const ProjectSlider: React.FC<ProjectSliderProps> = ({
               <img
                 src={project.mobileimageUrl}
                 alt={project.projectName}
-                className="featured__image featured__image-mobile"
+                className="projects__image projects__image-mobile"
               />
 
               <img
                 src={project.desktopimageUrl}
                 alt={project.projectName}
-                className="featured__image featured__image-desktop"
+                className="projects__image projects__image-desktop"
               />
             </div>
           </div>
