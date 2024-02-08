@@ -1,24 +1,24 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import { MockData } from '../mock/HomeProjects';
 import { Link } from 'react-router-dom';
 import SVG from 'react-inlinesvg';
 
 import rightIcon from '../assets/icons/white-right-icon.svg';
 
-interface HoverState {
-  [key: number]: boolean;
-}
+// interface HoverState {
+//   [key: number]: boolean;
+// }
 
 export const FeaturedProjects = () => {
-  const [hover, setHover] = useState<HoverState>({});
+  // const [hover, setHover] = useState<HoverState>({});
   const featuredData = MockData[0]?.featuredData || [];
 
-  const handleMouseEnter = (index: number) => {
-    setHover((prev) => ({ ...prev, [index]: true }));
-  };
-  const handleMouseLeave = (index: number) => {
-    setHover((prev) => ({ ...prev, [index]: false }));
-  };
+  // const handleMouseEnter = (index: number) => {
+  //   setHover((prev) => ({ ...prev, [index]: true }));
+  // };
+  // const handleMouseLeave = (index: number) => {
+  //   setHover((prev) => ({ ...prev, [index]: false }));
+  // };
 
   return (
     <div className="featured">
@@ -27,11 +27,11 @@ export const FeaturedProjects = () => {
         <div
           key={index}
           className="featured__section"
-          onMouseEnter={() => handleMouseEnter(index)}
-          onMouseLeave={() => handleMouseLeave(index)}
+          // onMouseEnter={() => handleMouseEnter(index)}
+          // onMouseLeave={() => handleMouseLeave(index)}
         >
           <div className="featured__section-inner">
-            <div
+            {/* <div
               className={`featured__media-wrap ${
                 hover[index] && project.videoUrl ? 'show-video' : 'hide-video'
               }`}
@@ -58,6 +58,20 @@ export const FeaturedProjects = () => {
                   />
                 </>
               )}
+            </div> */}
+            <div className={`featured__media-wrap`}>
+              <>
+                <img
+                  src={project.mobileimageUrl}
+                  alt={project.projectName}
+                  className="featured__image featured__image-mobile"
+                />
+                <img
+                  src={project.desktopimageUrl}
+                  alt={project.projectName}
+                  className="featured__image featured__image-desktop"
+                />
+              </>
             </div>
 
             <div className="featured__tags-wrap">
