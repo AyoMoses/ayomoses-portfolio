@@ -2,14 +2,14 @@ export const MockData = [
   {
     featuredData: [
       {
-        mobileimageUrl: '/klic_proj,w_640.png', 
+        mobileimageUrl: '/klic_proj,w_640.png',
         desktopimageUrl: '/klic_proj,w_1648.png',
         videoUrl: '',
         techStack: ['NextJS', 'StorybookJS', 'TypeScript', 'SCSS', 'AWS'],
         category: 'Game streaming app',
         projectName: 'klic',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit arcu ac condimentum orci aliquet. Mattis sapien vehicula sit elementum mus est dolor, nulla. Cursus nibh facilisis fames leo nibh vel ac. Venenatis ornare varius elementum adipiscing. Non id proin vitae tellus tortor massa. Lacinia quis sollicitudin in morbi. Vestibulum massa in at mauris. Consectetur integer eget nisl vitae. Turpis leo.',
+          'Web application for a NBA parter organisation. Klic is an online game streaming platform in the United States. The app was built using Nextjs, AWS, TypeScript, StorybookJS, and SCSS.',
         projectUrl: 'https://klic.gg',
       },
       {
@@ -26,7 +26,7 @@ export const MockData = [
         category: 'Finance app',
         projectName: 'Blish App',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit arcu ac condimentum orci aliquet. Mattis sapien vehicula sit elementum mus est dolor, nulla. Cursus nibh facilisis fames leo nibh vel ac. Venenatis ornare varius elementum adipiscing. Non id proin vitae tellus tortor massa. Lacinia quis sollicitudin in morbi. Vestibulum massa in at mauris. Consectetur integer eget nisl vitae. Turpis leo.',
+          'A Reactjs based web and mobile responsive app. A fin tech application to exchange currencies between users. Has two phases of dashboard and a market place to purchase and buy products.',
         projectUrl: 'https://app.blishpay.com/',
       },
       {
@@ -37,7 +37,7 @@ export const MockData = [
         category: 'Bank website',
         projectName: 'Guaranty Bank',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit arcu ac condimentum orci aliquet. Mattis sapien vehicula sit elementum mus est dolor, nulla. Cursus nibh facilisis fames leo nibh vel ac. Venenatis ornare varius elementum adipiscing. Non id proin vitae tellus tortor massa. Lacinia quis sollicitudin in morbi. Vestibulum massa in at mauris. Consectetur integer eget nisl vitae. Turpis leo.',
+          "Official Website of one of USA's banks Guaranty Bank. Mobile responsive and optimized with accessiblity and ADA checks. It has unique features to create a good user experience for users. Wordpress CMS to also help with content management and content population.",
         projectUrl: 'https://gbtonline.com',
       },
       {
@@ -48,7 +48,7 @@ export const MockData = [
         projectName: 'Fortworth Zoo',
         category: 'Zoo website',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit arcu ac condimentum orci aliquet. Mattis sapien vehicula sit elementum mus est dolor, nulla. Cursus nibh facilisis fames leo nibh vel ac. Venenatis ornare varius elementum adipiscing. Non id proin vitae tellus tortor massa. Lacinia quis sollicitudin in morbi. Vestibulum massa in at mauris. Consectetur integer eget nisl vitae. Turpis leo.',
+          'The official website of Fortworth Zoo. A content management website built using SiteWrench CMS based on liquid template. The app features animated backgrounds to create a soothing ambience for users. Booking of events, and other custom features of the website. Mobile responsive and optimized with accessiblity and ADA checks.',
         projectUrl: 'https://www.fortworthzoo.org/',
       },
     ],
@@ -62,7 +62,7 @@ export const MockData = [
         category: 'Game streaming app',
         projectName: 'klic',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit arcu ac condimentum orci aliquet. Mattis sapien vehicula sit elementum mus est dolor, nulla. Cursus nibh facilisis fames leo nibh vel ac. Venenatis ornare varius elementum adipiscing. Non id proin vitae tellus tortor massa. Lacinia quis sollicitudin in morbi. Vestibulum massa in at mauris. Consectetur integer eget nisl vitae. Turpis leo.',
+          'Web application for a NBA parter organisation. Klic is an online game streaming platform in the United States. The app was built using Nextjs, AWS, TypeScript, StorybookJS, and SCSS.',
         projectUrl: 'https://klic.gg',
       },
       {
@@ -79,7 +79,7 @@ export const MockData = [
         category: 'Finance',
         projectName: 'Blish App',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit arcu ac condimentum orci aliquet. Mattis sapien vehicula sit elementum mus est dolor, nulla. Cursus nibh facilisis fames leo nibh vel ac. Venenatis ornare varius elementum adipiscing. Non id proin vitae tellus tortor massa. Lacinia quis sollicitudin in morbi. Vestibulum massa in at mauris. Consectetur integer eget nisl vitae. Turpis leo.',
+          'A Reactjs based web and mobile responsive app. A fin tech application to exchange currencies between users. Has two phases of dashboard and a market place to purchase and buy products.',
         projectUrl: 'https://app.blishpay.com/',
       },
       {
@@ -90,7 +90,7 @@ export const MockData = [
         category: 'Bank website',
         projectName: 'Guaranty Bank',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit arcu ac condimentum orci aliquet. Mattis sapien vehicula sit elementum mus est dolor, nulla. Cursus nibh facilisis fames leo nibh vel ac. Venenatis ornare varius elementum adipiscing. Non id proin vitae tellus tortor massa. Lacinia quis sollicitudin in morbi. Vestibulum massa in at mauris. Consectetur integer eget nisl vitae. Turpis leo.',
+          "Official Website of one of USA's banks Guaranty Bank. Mobile responsive and optimized with accessiblity and ADA checks. It has unique features to create a good user experience for users. Wordpress CMS to also help with content management and content population.",
         projectUrl: 'https://gbtonline.com',
       },
       {
@@ -101,7 +101,7 @@ export const MockData = [
         projectName: 'Fortworth Zoo',
         category: 'Zoo Website',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit arcu ac condimentum orci aliquet. Mattis sapien vehicula sit elementum mus est dolor, nulla. Cursus nibh facilisis fames leo nibh vel ac. Venenatis ornare varius elementum adipiscing. Non id proin vitae tellus tortor massa. Lacinia quis sollicitudin in morbi. Vestibulum massa in at mauris. Consectetur integer eget nisl vitae. Turpis leo.',
+          'The official website of Fortworth Zoo. A content management website built using SiteWrench CMS based on liquid template. The app features animated backgrounds to create a soothing ambience for users. Booking of events, and other custom features of the website. Mobile responsive and optimized with accessiblity and ADA checks.',
         projectUrl: 'https://www.fortworthzoo.org/',
       },
 
