@@ -51,6 +51,30 @@ export const MockData = [
           'The official website of Fortworth Zoo. A content management website built using SiteWrench CMS based on liquid template. The app features animated backgrounds to create a soothing ambience for users. Booking of events, and other custom features of the website. Mobile responsive and optimized with accessiblity and ADA checks.',
         projectUrl: 'https://www.fortworthzoo.org/',
       },
+
+      {
+        mobileimageUrl: '/cheekwood-mobile.png',
+        desktopimageUrl: '/cheekwood-web.png',
+        videoUrl: '',
+        techStack: ['Wordpress CMS', 'JavaScript', 'ACF', 'SCSS'],
+        projectName: 'Cheekwood',
+        category: 'Hospitality, Hotel',
+        description:
+          'Official website of Cheekwood. The website features events, booking, and other custom features. Another custom built website. Has passed ADA checks for accessibility and optimization.',
+        projectUrl: 'https://cheekwood.org/',
+      },
+
+      {
+        mobileimageUrl: '/wpb-mobile.png',
+        desktopimageUrl: '/wpb-web.png',
+        videoUrl: '',
+        techStack: ['Wordpress CMS', 'ACF', 'JavaScript', 'SCSS'],
+        projectName: 'West Palm Beach',
+        category: 'Hospitality, Hotel',
+        description:
+          'Custom built website for West Palm Beach. The website has amazing layout with subtle animations coupled with a well planned user experience. Mobile responsive and has passed ADA checks for accessibility and optimization.',
+        projectUrl: 'https://downtownwpb.com/',
+      },
     ],
 
     projectsData: [
@@ -113,7 +137,7 @@ export const MockData = [
         projectName: 'Homedotly',
         category: 'Assets Mgt App',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit arcu ac condimentum orci aliquet. Mattis sapien vehicula sit elementum mus est dolor, nulla. Cursus nibh facilisis fames leo nibh vel ac. Venenatis ornare varius elementum adipiscing. Non id proin vitae tellus tortor massa. Lacinia quis sollicitudin in morbi. Vestibulum massa in at mauris. Consectetur integer eget nisl vitae. Turpis leo.',
+          'An assets management web application to better manage assets for users. The app consists of an admin dashboard, mobile application, and landing page.',
         projectUrl: 'https://www.homedotly.co.uk/',
       },
 
@@ -121,11 +145,11 @@ export const MockData = [
         mobileimageUrl: '/cheese-factory-mobile.png',
         desktopimageUrl: '/cheese-factory.png',
         videoUrl: '',
-        techStack: ['AngularJS', 'AWS', 'TypeScript', 'SCSS'],
+        techStack: ['Angular', 'AWS', 'TypeScript', 'SCSS'],
         projectName: 'Cheese Factory',
         category: 'Ecommerce',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit arcu ac condimentum orci aliquet. Mattis sapien vehicula sit elementum mus est dolor, nulla. Cursus nibh facilisis fames leo nibh vel ac. Venenatis ornare varius elementum adipiscing. Non id proin vitae tellus tortor massa. Lacinia quis sollicitudin in morbi. Vestibulum massa in at mauris. Consectetur integer eget nisl vitae. Turpis leo.',
+          'An ecommerce website for a startup company in Sweden. The project features responsive view, authentication, and payment system.',
         projectUrl: 'https://cheese-factory.firebaseapp.com/',
       },
 
@@ -137,7 +161,7 @@ export const MockData = [
         projectName: 'Boca Raton',
         category: 'Museum',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit arcu ac condimentum orci aliquet. Mattis sapien vehicula sit elementum mus est dolor, nulla. Cursus nibh facilisis fames leo nibh vel ac. Venenatis ornare varius elementum adipiscing. Non id proin vitae tellus tortor massa. Lacinia quis sollicitudin in morbi. Vestibulum massa in at mauris. Consectetur integer eget nisl vitae. Turpis leo.',
+          'Official website of Boca Raton. A history museum in the United states built using Sitewrench CMS. Easy to manage contents and build websites just like wordpress. Has unique features to it and mobile responsive. Has passed ADA checks for accessibility and optimization.',
         projectUrl: 'https://bocahistory.org',
       },
 
@@ -149,7 +173,7 @@ export const MockData = [
         projectName: 'Zooceanarium',
         category: 'Acquarium',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit arcu ac condimentum orci aliquet. Mattis sapien vehicula sit elementum mus est dolor, nulla. Cursus nibh facilisis fames leo nibh vel ac. Venenatis ornare varius elementum adipiscing. Non id proin vitae tellus tortor massa. Lacinia quis sollicitudin in morbi. Vestibulum massa in at mauris. Consectetur integer eget nisl vitae. Turpis leo.',
+          'A single page website for Zooceanarium. Mobile responsive and features loads of animation as requested by client.',
         projectUrl: 'https://www.zooceanarium.com/',
       },
 
@@ -157,11 +181,11 @@ export const MockData = [
         mobileimageUrl: '/wildhorse-mobile.png',
         desktopimageUrl: '/wildhorse-web.png',
         videoUrl: '',
-        techStack: ['Wordpress CMS', 'JavaScript', 'SCSS'],
+        techStack: ['Wordpress CMS', 'ACF', 'JavaScript', 'SCSS'],
         projectName: 'Wildhorse Saloon',
         category: 'Events',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit arcu ac condimentum orci aliquet. Mattis sapien vehicula sit elementum mus est dolor, nulla. Cursus nibh facilisis fames leo nibh vel ac. Venenatis ornare varius elementum adipiscing. Non id proin vitae tellus tortor massa. Lacinia quis sollicitudin in morbi. Vestibulum massa in at mauris. Consectetur integer eget nisl vitae. Turpis leo.',
+          'Offical website of Wildhorse Saloon. The website was built using Wordpress CMS for content management. Has passed ADA checks for accessibility and optimization.',
         projectUrl: 'https://wildhorsesaloon.com',
       },
 
@@ -169,23 +193,23 @@ export const MockData = [
         mobileimageUrl: '/cheekwood-mobile.png',
         desktopimageUrl: '/cheekwood-web.png',
         videoUrl: '',
-        techStack: ['Wordpress CMS', 'JavaScript', 'SCSS'],
+        techStack: ['Wordpress CMS', 'JavaScript', 'ACF', 'SCSS'],
         projectName: 'Cheekwood',
         category: 'Hospitality, Hotel',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit arcu ac condimentum orci aliquet. Mattis sapien vehicula sit elementum mus est dolor, nulla. Cursus nibh facilisis fames leo nibh vel ac. Venenatis ornare varius elementum adipiscing. Non id proin vitae tellus tortor massa. Lacinia quis sollicitudin in morbi. Vestibulum massa in at mauris. Consectetur integer eget nisl vitae. Turpis leo.',
+          'Official website of Cheekwood. The website features events, booking, and other custom features. Another custom built website. Has passed ADA checks for accessibility and optimization.',
         projectUrl: 'https://cheekwood.org/',
       },
 
       {
-        mobileimageUrl: '/cheekwood-mobile.png',
-        desktopimageUrl: '/cheekwood-web.png',
+        mobileimageUrl: '/wpb-mobile.png',
+        desktopimageUrl: '/wpb-web.png',
         videoUrl: '',
-        techStack: ['Wordpress CMS', 'JavaScript', 'SCSS'],
+        techStack: ['Wordpress CMS', 'ACF', 'JavaScript', 'SCSS'],
         projectName: 'West Palm Beach',
         category: 'Hospitality, Hotel',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit arcu ac condimentum orci aliquet. Mattis sapien vehicula sit elementum mus est dolor, nulla. Cursus nibh facilisis fames leo nibh vel ac. Venenatis ornare varius elementum adipiscing. Non id proin vitae tellus tortor massa. Lacinia quis sollicitudin in morbi. Vestibulum massa in at mauris. Consectetur integer eget nisl vitae. Turpis leo.',
+          'Custom built website for West Palm Beach. The website has amazing layout with subtle animations coupled with a well planned user experience. Mobile responsive and has passed ADA checks for accessibility and optimization.',
         projectUrl: 'https://downtownwpb.com/',
       },
 
@@ -193,11 +217,11 @@ export const MockData = [
         mobileimageUrl: '/st-anthony-mobile.png',
         desktopimageUrl: '/st-anthony-web.png',
         videoUrl: '',
-        techStack: ['Wordpress CMS', 'JavaScript', 'SCSS'],
+        techStack: ['Wordpress CMS', 'ACF', 'JavaScript', 'SCSS'],
         projectName: "St. Anthony's Foundation",
         category: 'Hospitality, Hotel',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit arcu ac condimentum orci aliquet. Mattis sapien vehicula sit elementum mus est dolor, nulla. Cursus nibh facilisis fames leo nibh vel ac. Venenatis ornare varius elementum adipiscing. Non id proin vitae tellus tortor massa. Lacinia quis sollicitudin in morbi. Vestibulum massa in at mauris. Consectetur integer eget nisl vitae. Turpis leo.',
+          "Official website of St. Anthony's Foundation. The website is mobile responsive and has passed ADA checks for accessibility and optimization.",
         projectUrl: 'https://www.stanthonysf.org/',
       },
 
@@ -205,11 +229,11 @@ export const MockData = [
         mobileimageUrl: '/U-of-M-mobile.png',
         desktopimageUrl: '/U-of-M-web.png',
         videoUrl: '',
-        techStack: ['Wordpress CMS', 'JavaScript', 'SCSS'],
+        techStack: ['Wordpress CMS', 'ACF', 'JavaScript', 'SCSS'],
         projectName: 'U of M Aquifer',
         category: 'Engineering',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hendrerit arcu ac condimentum orci aliquet. Mattis sapien vehicula sit elementum mus est dolor, nulla. Cursus nibh facilisis fames leo nibh vel ac. Venenatis ornare varius elementum adipiscing. Non id proin vitae tellus tortor massa. Lacinia quis sollicitudin in morbi. Vestibulum massa in at mauris. Consectetur integer eget nisl vitae. Turpis leo.',
+          'Official website of U of M Aquifer. The website is mobile responsive and has passed ADA checks for accessibility and optimization.',
         projectUrl: 'https://midsouthwater.org/',
       },
     ],
