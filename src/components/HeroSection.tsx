@@ -11,7 +11,7 @@ export const HeroSection = () => {
   return (
     <section className={`hero-section ${isOpen ? 'open' : ''}`}>
       <h3 className="hero-section__text">Hi there!</h3>
-      <h1 className="hero-section__title">I’m Ayodeji Moses Odukoya</h1>
+      <h1 className="hero-section__title">I’m Ayo Moses Odukoya</h1>
       <p className="hero-section__description">
         <span>Frontend Developer</span> <span className="spacer-dot" />
         <span>Visual Designer</span>
