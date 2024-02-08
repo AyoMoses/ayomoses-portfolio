@@ -56,14 +56,14 @@ const Header: React.FC = () => {
                   </span>
                 </Link>
               </li>
-              <li data-animation="to-bottom" onClick={handleToggleNav}>
+              {/* <li data-animation="to-bottom" onClick={handleToggleNav}>
                 <Link to="/designs">
                   designs
                   <span className="outer" aria-hidden="true">
                     <span className="inner">designs</span>
                   </span>
                 </Link>
-              </li>
+              </li> */}
             </div>
             {/* <li data-animation="to-top" onClick={handleToggleNav}>
               <Link to="/about-me">
