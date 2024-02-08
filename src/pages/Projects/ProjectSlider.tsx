@@ -18,7 +18,7 @@ interface ProjectSliderProps {
 }
 
 const settings: Settings = {
-  //   autoplay: true,
+  autoplay: true,
   dots: true,
   speed: 500,
   arrows: false,

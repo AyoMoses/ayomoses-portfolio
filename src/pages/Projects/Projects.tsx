@@ -6,7 +6,7 @@ export const ProjectsPage = () => {
       <h1 className="projects__header">Projects</h1>
 
       <main className='projects__container'>
-        <ProjectSlider projStack="NextJS" sectionHeader="ReactJS Projects" />
+        <ProjectSlider projStack="NextJS" sectionHeader="NextJS & ReactJS Projects" />
 
         <ProjectSlider
           projStack="Sitewrench CMS"
