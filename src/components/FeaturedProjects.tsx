@@ -60,18 +60,18 @@ export const FeaturedProjects = () => {
               )}
             </div> */}
             <div className={`featured__media-wrap`}>
-              {/* <>
+              <>
                 <img
                   src={project.mobileimageUrl}
                   alt={project.projectName}
                   className="featured__image featured__image-mobile"
                 />
-              </> */}
-              <img
-                src={project.desktopimageUrl}
-                alt={project.projectName}
-                className="featured__image featured__image-desktop"
-              />
+                <img
+                  src={project.desktopimageUrl}
+                  alt={project.projectName}
+                  className="featured__image featured__image-desktop"
+                />
+              </>
             </div>
 
             <div className="featured__tags-wrap">

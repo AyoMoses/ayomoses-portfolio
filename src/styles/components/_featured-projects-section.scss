@@ -84,13 +84,17 @@
     -moz-border-radius: 0.9375rem;
     -ms-border-radius: 0.9375rem;
     -o-border-radius: 0.9375rem;
-  }
-  &__image {
-    object-fit: cover;
-    height: 600px;
+
+    height: 400px;
     @include bp-sm {
       height: 500px;
     }
+  }
+  &__image {
+    object-position: top;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
   }
   &__video {
     width: 100%;
@@ -117,19 +121,15 @@
   }
 
   &__image-mobile {
-    height: 100%;
-
     @include bp-sm {
       display: none;
     }
   }
   &__image-desktop {
-    // display: none;
-    display: block;
-    height: 100%;
-    // @include bp-sm {
-    //   height: 500px;
-    // }
+    display: none;
+    @include bp-sm {
+      display: block;
+    }
   }
   &__project-name {
     color: $col-font;
