@@ -124,10 +124,11 @@
     }
   }
   &__image-desktop {
-    display: none;
+    // display: none;
+    display: block;
+    height: 100%;
     @include bp-sm {
-      display: block;
-      height: 100%;
+      height: 500px;
     }
   }
   &__project-name {

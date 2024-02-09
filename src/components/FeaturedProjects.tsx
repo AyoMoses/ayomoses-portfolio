@@ -61,11 +61,11 @@ export const FeaturedProjects = () => {
             </div> */}
             <div className={`featured__media-wrap`}>
               <>
-                <img
+                {/* <img
                   src={project.mobileimageUrl}
                   alt={project.projectName}
                   className="featured__image featured__image-mobile"
-                />
+                /> */}
                 <img
                   src={project.desktopimageUrl}
                   alt={project.projectName}
