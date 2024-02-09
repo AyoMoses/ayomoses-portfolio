@@ -42,7 +42,7 @@
       padding-top: 5rem;
       padding-bottom: 3.75rem;
     }
-    cursor: pointer;
+
     &-inner {
       width: 100%;
       max-width: calc(100% - 32px);
@@ -222,6 +222,7 @@
   display: none;
   @include bp-sm {
     display: flex;
+    cursor: pointer;
   }
 }
 .featured-button-mobile {
