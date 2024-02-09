@@ -19,6 +19,7 @@ interface ProjectSliderProps {
 
 const settings: Settings = {
   autoplay: true,
+  swipeToSlide: true,
   dots: true,
   speed: 500,
   arrows: false,
@@ -27,7 +28,6 @@ const settings: Settings = {
   pauseOnHover: true,
   slidesToShow: 1,
   slidesToScroll: 1,
-  swipeToSlide: true,
 
   responsive: [
     {
