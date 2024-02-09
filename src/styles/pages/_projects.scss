@@ -81,7 +81,7 @@
   &__image-container {
     @include border-radius(0.9375rem);
     width: 100%;
-    height: 15.625rem;
+    height: 450px;
     position: relative;
     overflow: hidden;
 
@@ -97,11 +97,6 @@
       height: 100%;
       object-fit: cover;
       object-position: top;
-    //   position: absolute;
-    //   right: 0;
-    //   left: 0;
-    //   top: 0;
-    //   bottom: 0;
 
       @include bp-md {
         @include border-radius(3.125rem);
