@@ -127,9 +127,9 @@
     // display: none;
     display: block;
     height: 100%;
-    @include bp-sm {
-      height: 500px;
-    }
+    // @include bp-sm {
+    //   height: 500px;
+    // }
   }
   &__project-name {
     color: $col-font;
