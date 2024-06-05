@@ -32,7 +32,7 @@ export const HeroSection = () => {
         >
           Download CV
           <SVG src={downloadIcon} />
-        </a>
+        </a> 
       </div>
 
       <button type='button' className="hero-section__scroll-down">
