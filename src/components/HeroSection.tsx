@@ -3,7 +3,7 @@ import { useToggleAnimationContext } from '../contexts/ToggleAnimationContext';
 import SVG from 'react-inlinesvg';
 
 import rightIcon from '../assets/icons/white-right-icon.svg';
-import downloadIcon from '../assets/icons/download-icon.svg';
+// import downloadIcon from '../assets/icons/download-icon.svg';
 import { Link } from 'react-router-dom';
 
 export const HeroSection = () => {
@@ -25,14 +25,14 @@ export const HeroSection = () => {
         <Link to="/projects" className="button button--primary">
           See projects <SVG src={rightIcon} />
         </Link>
-        <a
+        {/* <a
           href="../assets/AYO-MOSES-ODUKOYA.pdf"
           className="button button--secondary"
           download
         >
           Download CV
           <SVG src={downloadIcon} />
-        </a> 
+        </a>  */}
       </div>
 
       <button type='button' className="hero-section__scroll-down">
